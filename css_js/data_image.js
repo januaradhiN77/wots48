@@ -70,7 +70,7 @@ addImageToElement('michieimg', 'https://jkt48.com/profile/michelle_alexandra.jpg
 
 
 
-addImageToElement('calliesr', 'https://jkt48webfans.netlify.app/callie.sr.play.png');
+addImageToElement('aurelliasr', 'https://jkt48webfans.netlify.app/aurellia.sr.play.png');
 
 
 
