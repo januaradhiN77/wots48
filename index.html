@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wots48 - Home</title>
+  <link rel="stylesheet" href="../css_js/main.css">
+  
+  
+</head>
+
+<header>
+        <div class="headertext">
+                <h1>JKT48</h1>
+        </div>
+</header>
+
+<body>
+
+
+<section class="home-content">
+    <div class="banner">
+        <div class="slides">
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('https://jkt48.com//summerfestdiarypb?lang=id')">
+                    <img src="https://jkt48.com/images/banner.home.summerfestdiarypb-id.jpg" alt="">
+                </button>
+            </div>
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('https://jkt48.com/valkyrie48?lang=id')">
+                    <img src="https://jkt48.com/images/banner.home.valkyrie48_2023.jpg?v=2" alt="">
+                </button>
+            </div>
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('https://jkt48.com/fanclub?lang=id')">
+                    <img src="https://jkt48.com/images/banner.fanclub2021-id.jpg" alt="">
+                </button>
+            </div>
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/iS3J0JxXIBb')">
+                    <img src="https://jkt48.com/images/banner.home.tokopedia.jpg" alt="">
+                </button>
+            </div>
+            <div class="navigation">
+                <button class="prev buttonmem" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next buttonmem" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</section>
+
+
+<section class="menu-content">
+      <div class="home-item">
+        <div class="menu-bar">
+                <a href=""><img class="widthimglagu" src="icon/lagu.png"></a>
+                <a href=""><img src="icon/videocall.png"></a>
+                <a href=""><img class="widthimgchant" src="icon/chant.png"></a>
+        </div>
+      </div>
+      
+      
+      
+   
+      
+      
+      <div class="birthdayhead">
+                  <span>NEXT BIRTHDAY</span>
+                        <div class="birthday">
+                                <div class="birthday-box">
+                           <button class="buttonmem" onclick="goToWebsite(`ella.html`)" ><div class="border"><div class="ellaimg"></div></div></button>
+                             <span class="s1"></span>
+                             <h1 class="anggota" data-name="26"></h1>
+                                </div>
+                                <div class="birthday-box">
+                           <button class="buttonmem" onclick="goToWebsite(`callie.html`)"><div class="border">
+                                  <div class="callieimg"></div></div></button>
+                             <span class="s1"></span>
+                             <h1 class="anggota" data-name="25"></h1>
+                                </div>
+                                <div class="birthday-box">
+                           <button class="buttonmem" onclick="goToWebsite(`alya.html`)"><div class="border"><div class="alyaimg"></div></div></button>
+                             <span class="s2"></span>
+                             <h1 class="trainee" data-name="0"></h1>
+                                </div>
+                       </div>
+
+      </div>
+
+</section>
+<section class="text-merch">
+                <div class="header-merch">
+                <h1>JKT48 Merchandise</h1>
+                <span>Official Merchandise from JKT48</span>
+        </div>
+</section>
+<section class="merchandise">
+
+        <div class="container-mc">
+
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/sYV0an8YGBb')">
+            <img src="merchimg/tshirt.marsha.birthdaymc.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/HZlW439YGBb')">
+            <img src="merchimg/tshirt.feni.birthdaymc.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 210.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/jrVHu4aZGBb')">
+            <img src="merchimg/tshirt.flora.birthdaymc.jkt48.png">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/Rfe40KcZGBb')">
+            <img src="merchimg/tshirt.lulu.carameminumramune.bundle.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Cara</span><br>
+        <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/wtWXB1dZGBb')">
+            <img src="merchimg/tshirt.marsha.carameminumramune.bundle.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Cara</span><br>
+        <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/IOzbm5EYGBb')">
+            <img src="merchimg/tshirt.aziziasadel.birthdaymc.jkt48.png">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/Kj0MFpHYGBb')">
+            <img src="merchimg/jersey.valkyrie48.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>Valkyrie48</span><br>
+        <h2>Rp 350.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/JggyHoIYGBb')">
+            <img src="merchimg/tshirt.christy.birthdaymc.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/3cJP0nKYGBb')">
+            <img src="merchimg/batch2.merchandise.jkt48.jpg">
+        </button>
+        <span>( PRE-ORDER<br>Batch 2 ) JKT48</span><br>
+        <h2>Rp 180.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/yRR7jXLYGBb')">
+            <img src="merchimg/tshirt.setlist.limited.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Limited</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/lSQVu1MYGBb')">
+            <img src="merchimg/tshirt.febriola.birthdaymc.jkt48.png">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/BclvfbOYGBb')">
+            <img src="merchimg/tshirt.muthe.carameminumramune.bundle.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Cara</span><br>
+        <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/SlkueePYGBb')">
+            <img src="merchimg/tshirt.adel.carameminumramune.bundle.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Cara</span><br>
+        <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/5ndEgps8TBb')">
+            <img src="merchimg/tshirt.shani.carameminumramune.bundle.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Cara</span><br>
+        <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+            <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/GUrnhWu8TBb')">
+                    <img src="merchimg/tshirt.gracia.carameminumramune.bundle.jkt48.jpg">
+            </button>
+            <span>( Pre-order )<br>JKT48 Cara</span><br>
+            <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/edqgJ9RYGBb')">
+            <img src="merchimg/tshirt.yessica.carameminumramune.bundle.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Cara</span><br>
+        <h2>Rp 250.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/dFiuKaTYGBb')">
+            <img src="merchimg/tshirt.jesslyn.birthdaymc.jkt48.png">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/d0CwP3TYGBb')">
+            <img src="merchimg/tshirt.setlist.limited.jkt48.jpg">
+        </button>
+        <span>( Pre-order )<br>JKT48 Limited</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/0UnqzgVYGBb')">
+            <img src="merchimg/handkerchief.galaxy.merchandise.jkt48.jpg">
+        </button>
+        <span>Handkerchief<br>Galaxy - JKT48</span><br>
+        <h2>Rp 50.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/5dqc38WYGBb')">
+            <img src="merchimg/tshirt.flora.birthdaymc.jkt48.png">
+        </button>
+        <span>( Pre-order )<br>JKT48 Birthday</span><br>
+        <h2>Rp 195.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/uwEqKWXYGBb')">
+            <img src="merchimg/hoodieblack.jkt48.10th_anniversary.jpg">
+        </button>
+        <span>JKT48 10th<br>Anniversary</span><br>
+        <h2>Rp 300.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/nQt3IOYYGBb')">
+            <img src="merchimg/tshirt.jkt48.10th.jpg">
+        </button>
+        <span>T-shirt<br>JKT48 10th</span><br>
+        <h2>Rp 170.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/cpCYgzZYGBb')">
+            <img src="merchimg/uchiwa.merchandise.jkt48.10th_anniversary.jpg">
+        </button>
+        <span>Uchiwa<br>JKT48 10th</span><br>
+        <h2>Rp 30.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/YQ4wHj0YGBb')">
+            <img src="merchimg/rubberband.merchandise.jkt48.10th_anniversary.jpg">
+        </button>
+        <span>Rubber Band<br>JKT48 10th</span><br>
+        <h2>Rp 20.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/6pak810YGBb')">
+            <img src="merchimg/enamel.pin.jkt48th.jpg">
+        </button>
+        <span>Enamel Pin<br>JKT48th</span><br>
+        <h2>Rp 60.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/Rd5hOQ1YGBb')">
+            <img src="merchimg/lightstick.jkt48.newera.jpg">
+        </button>
+        <span>Light Stick JKT48<br>Newera</span><br>
+        <h2>Rp 280.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/tLVJnF2YGBb')">
+            <img src="merchimg/tshirt.jkt48.11th_anniversary.jpg">
+        </button>
+        <span>JKT48 11th<br>Anniversary</span><br>
+        <h2>Rp 165.000</h2>
+    </div>
+    <div class="card-mc">
+        <button class="buttonmem" onclick="goToWebsite('https://tokopedia.link/j54UFj3YGBb')">
+            <img src="merchimg/uchiwajkt48.11th_anniversary.jpg">
+        </button>
+        <span>Uchiwa JKT48 <br>11th Anniversary </span><br>
+        <h2>Rp 30.000</h2>
+    </div>
+
+
+
+        </div>
+</section>
+<section class="text-version">
+                <div class="header-v">
+                <span>versi 1.0.0</span>
+        </div>
+</section>
+
+
+<script src="../css_js/data_member.js"></script>
+  <script src="../css_js/data_image.js"></script>
+  <script src="../css_js/birthday_name.js"></script>
+  <script src="../css_js/button_data.js"></script>
+  
+</body>
+</html>
