@@ -851,16 +851,15 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   width: 100%;
   margin-top: 20px;
 }
 .live-container{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
-  gap: 1rem;
+  gap:4rem;
   height: 90vh;
   margin-top: -10vh;
   overflow: auto;
@@ -872,10 +871,11 @@ html{
   border-radius: 20px;
 }
 .live-box{
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  display: flex;
+  margin-left: 0px;
 }
 .infosr{
   display: flex;
@@ -885,6 +885,7 @@ html{
   text-align: left;
   margin-left: 10px;
   margin-top: 10px;
+  
   gap: 5px;
 }
 .infosr p{
@@ -895,5 +896,9 @@ html{
 .infosr span{
   color: #000000;
   font-size: large;
+}
+.live-box h1{
+  font-weight: 400;
+  color: #FF5555;
 }
 }

@@ -50,3 +50,27 @@ addImageToElement('gracieimg', 'https://jkt48.com/profile/grace_octaviani.jpg?v=
 addImageToElement('greeselimg', 'https://jkt48.com/profile/greesella_adhalia.jpg?v=20230116');
 addImageToElement('jeaneimg', 'https://jkt48.com/profile/jeane_victoria.jpg?v=20230116');
 addImageToElement('michieimg', 'https://jkt48.com/profile/michelle_alexandra.jpg?v=20230116');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+addImageToElement('calliesr', 'https://jkt48webfans.netlify.app/callie.sr.play.png');
+
+
+
