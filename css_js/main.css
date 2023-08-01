@@ -874,6 +874,26 @@ html{
 .live-box{
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   display: flex;
+}
+.infosr{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  gap: 5px;
+}
+.infosr p{
+  color: #FF4343;
+  font-size: xx-large;
+  font-weight: 500;
+}
+.infosr span{
+  color: #000000;
+  font-size: large;
 }
 }
