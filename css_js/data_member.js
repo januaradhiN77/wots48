@@ -59,7 +59,7 @@ setElementInnerHTML(traineeElements, traineeNames);
 
 
 
-const srNames = [
+const showroomsNames = [
   "Ashel /アシェル（JKT48）", "Christy/クリスティー（JKT48）", "Zee/ジー（JKT48）", "Oniel/オニエル（JKT48）", "Olla/オラ（JKT48）", "Feni/フェニ（JKT48）", "Fiony /フィオニー（JKT48）", "Flora/フロラ（JKT48）", "Sisca/シスカ（JKT48）", "Freya/フレヤ（JKT48）",
   "Gita/ギタ（JKT48）", "Eli/エリ（JKT48）", "Indah/インダー（JKT48）", "Jessi/ジェシ（JKT48）",, "Kathrina/カトリナ（JKT48）", "Lulu /ルル （JKT48）", "Marsha/マーシャ（JKT48）", "Muthe/ムテ（JKT48）", "Adel/アデル（JKT48）",
   "Shani/シャニ（JKT48）", "Gracia/グラシア（JKT48）", "Chika/チカ（JKT48）", "Amanda/アマンダ（JKT48）", "Lia /リア（JKT48）", "Callie /カリー（JKT48）", "Ella /エラ（JKT48）", "Indira /インディラ（JKT48）", "Lyn /リーン（JKT48）", "Raisha /ライシャ（JKT48）"
@@ -72,8 +72,8 @@ function setElementInnerHTML(elements, names) {
   });
 }
 
-const showroomElements = document.querySelectorAll('.sr');
+const showroomElements = document.querySelectorAll('.srname');
 
 
-setElementInnerHTML(showroomElements, srNames);
+setElementInnerHTML(showroomElements, showroomsNames);
 
