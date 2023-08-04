@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wots48 - Jadwal</title>
+  <link rel="stylesheet" href="../css_js/main.css">
+  
+  
+</head>
+
+<header>
+        <div class="header_dm">
+           <button class="buttonmem" onclick="goToWebsite(`jadwal.html`)"><h1 style="color: white; margin-top: 10px; font-size: 2rem; font-weight: 700; margin-left: -90px;"><</h1></button>
+                <h1 style="margin-left: -30px; margin-top: 10px;">Event</h1>
+        </div>
+</header>
+
+<body>
+
+
+<section class="event-content">
+        <div class="event">
+                <div class="event-container">
+                        
+<div class="event-box">
+        <div class="imageevent">
+            <p id="eventDescription"></p>
+    <img id="eventImage" src="" alt="">
+        </div>
+   <div class="infoevent">
+
+           <img id="eventIcon">
+           <div class="infoevent-text">
+           <p id="eventTitle"></p>
+           <span id="eventDate"></span>
+           </div>
+           
+           <div class="buttoninfo">
+    <button class="buttonmem" id="informasiButton"><p>Tiket dan Informasi lebih lanjut</p></button>
+           </div>
+
+<div class="member-perform">
+        <div class="daftar-mp" id="memberList">
+              <div class="member-box">
+
+</div>
+
+
+        </div>
+</div>
+
+                        <div class="batas"></div>
+                </div>
+        </div>
+
+</section>
+<section class="jadwal-bottom">
+
+</section>
+
+          <script>
+    const eventsData = [
+      {
+        id: 1,
+        title: "Aturan Anti Cinta",
+        date: "19:00, Jumat 4 Agustus 2023",
+        icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+        image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
+        informasiLink: "https://jkt48.com/theater/schedule/id/2573?lang=id",
+        
+        members: [
+          { name: "Ashel", photo: "https://jkt48.com/profile/adzana_shaliha.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Lia", photo: "https://jkt48.com/profile/aurellia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Callie", photo: "https://jkt48.com/profile/callista_alifia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Oniel", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Olla", photo: "https://jkt48.com/profile/febriola_sinambela.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Sisca", photo: "https://jkt48.com/profile/fransisca_saraswati_puspa_dewi.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Gita", photo: "https://jkt48.com/profile/gita_sekar_andarini.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Eli", photo: "https://jkt48.com/profile/helisma_putri.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Indira", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Jessi", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Lyn", photo: "https://jkt48.com/profile/jesslyn_elly.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Kathrina", photo: "https://jkt48.com/profile/kathrina_irene.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Lulu", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Muthe", photo: "https://jkt48.com/profile/mutiara_azzahra.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Raisha", photo: "https://jkt48.com/profile/raisha_syifa.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Adel", photo: "https://jkt48.com/profile/reva_fidela.jpg?v=20230116", status: "Anggota JKT48" },
+        ]
+        
+      },
+      {
+        id: 2,
+        title: "Ingin Bertemu",
+        date: "19:00, Kamis 3 Agustus 2023",
+        icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+        image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+        informasiLink: "https://jkt48.com/theater/schedule/id/2572?lang=id",
+        members: [
+          { name: "Alya", photo: "https://jkt48.com/profile/alya_amanda.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Cathy", photo: "https://jkt48.com/profile/cathleen_nixie.jpg?v=20230116" , status: "Trainee JKT48" },
+          { name: "Celline", photo: "https://jkt48.com/profile/celline_thefani.jpg?v=20230116", status: "Trainee JKT48" },
+          { name: "Chelsea", photo: "https://jkt48.com/profile/chelsea_davina.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Cynthia", photo: "https://jkt48.com/profile/cynthia_yaputera.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Danella", photo: "https://jkt48.com/profile/dena_natalia.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Daisy", photo: "https://jkt48.com/profile/desy_natalia.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Gendis", photo: "https://jkt48.com/profile/gendis_mayrannisa.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Gracie", photo: "https://jkt48.com/profile/grace_octaviani.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Greesella", photo: "https://jkt48.com/profile/greesella_adhalia.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Jeane", photo: "https://jkt48.com/profile/jeane_victoria.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Michie", photo: "https://jkt48.com/profile/michelle_alexandra.jpg?v=20230116", status: "Trainee JKT48"  },
+
+        ]
+      },
+      // Dan seterusnya...
+    ];
+
+    // Ambil id acara dari query parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const eventId = urlParams.get('id');
+
+    const event = eventsData.find((event) => event.id == eventId);
+
+    if (event) {
+      document.getElementById("eventTitle").textContent = event.title;
+      document.getElementById("eventDate").textContent = event.date;
+      
+      document.getElementById("eventIcon").src = event.icon;
+      document.getElementById("eventImage").src = event.image;
+
+      const memberList = document.getElementById("memberList");
+      memberList.innerHTML = event.members.map((member) => `
+
+        <div class="member-box">
+               <div class="border-member">
+         <img src="${member.photo}" alt="${member.name}">
+         </div>
+            <span>${member.status}</span>
+            <h1>${member.name}</h1>
+            
+          </div>
+      
+      `).join("");
+      const informasiButton = document.getElementById("informasiButton");
+
+  informasiButton.addEventListener("click", () => {
+    // Aksi yang ingin dilakukan saat tombol Register diklik
+    // Menggunakan registerLink untuk mengarahkan pengguna ke link website yang sesuai
+    window.location.href = event.informasiLink;
+  });
+    } else {
+      alert("Event tidak ditemukan!");
+    }
+  </script>
+  <script src="../css_js/main.js"></script>
+
+        <script src="../css_js/button_data.js"></script>
+        <script src="../css_js/data_icon.js"></script>
+          <script src="../css_js/data_image.js"></script>
+  <script src="../css_js/data_show.js"></script>
+  <script src="../css_js/data_member.js"></script>
+  
+</body>
+</html>

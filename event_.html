@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Event</title>
+  <style>
+    /* Tambahkan styling CSS sesuai kebutuhan Anda */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    #eventDetailContainer {
+      margin: 20px;
+    }
+
+    #eventDetailContainer img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    #memberList {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    #memberList li {
+      margin-bottom: 10px;
+    }
+
+    #memberList img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Detail Event</h1>
+  <div id="eventDetailContainer">
+
+    <p id="eventDate"></p>
+
+    <img id="eventImage" src="" alt="Event Image">
+
+    <h1 id="eventTitle"></h1>    <h2>Daftar Member:</h2>
+    <ul id="memberList"></ul>
+  </div>
+
+  <script>
+    const eventsData = [
+      {
+        id: 1,
+        title: "Aturan Anti Cinta",
+        date: "2023-08-10",
+        description: "Deskripsi event 1",
+        image: "poster.aturananticinta.jpg",
+        members: [
+          { name: "Member A", photo: "memberA.jpg" },
+          { name: "Member B", photo: "memberB.jpg" },
+          { name: "Member C", photo: "memberC.jpg" }
+        ]
+      },
+      {
+        id: 2,
+        title: "Event 2",
+        date: "2023-08-15",
+        description: "Deskripsi event 2",
+        image: "event2.jpg",
+        members: [
+          { name: "Member X", photo: "memberX.jpg" },
+          { name: "Member Y", photo: "memberY.jpg" },
+          { name: "Member Z", photo: "memberZ.jpg" }
+        ]
+      },
+      // Dan seterusnya...
+    ];
+
+    // Ambil id acara dari query parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const eventId = urlParams.get('id');
+
+    const event = eventsData.find((event) => event.id == eventId);
+
+    if (event) {
+      document.getElementById("eventTitle").textContent = event.title;
+      document.getElementById("eventDate").textContent = event.date;
+      document.getElementById("eventDescription").textContent = event.description;
+      document.getElementById("eventImage").src = event.image;
+
+      const memberList = document.getElementById("memberList");
+      memberList.innerHTML = event.members.map((member) => `
+        <li>
+          <img src="${member.photo}" alt="${member.name}">
+          ${member.name}
+        </li>
+      `).join("");
+    } else {
+      alert("Event tidak ditemukan!");
+    }
+  </script>
+</body>
+
+</html>

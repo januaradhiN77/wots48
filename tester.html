@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Event JKT48</title>
+  <style>
+    /* Tambahkan styling CSS sesuai kebutuhan Anda */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    #eventList {
+      list-style: none;
+      padding: 0;
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .eventItem {
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .eventItem img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Daftar Event JKT48</h1>
+  <ul id="eventList">
+    <li class="eventItem" onclick="openEventDetailPage(1)">
+      <img src="event1.jpg" alt="Event 1">
+      <h3>Event 1</h3>
+    </li>
+    <li class="eventItem" onclick="openEventDetailPage(2)">
+      <img src="event2.jpg" alt="Event 2">
+      <h3>Event 2</h3>
+    </li>
+    <!-- Tambahkan daftar event lainnya -->
+  </ul>
+
+  <script>
+
+
+    function openEventDetailPage(eventId) {
+      window.location.href = `event_.html?id=${eventId}`;
+    }
+  </script>
+</body>
+
+</html>
