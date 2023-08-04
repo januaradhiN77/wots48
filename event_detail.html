@@ -113,12 +113,12 @@
 
         ]
       },
-      // Dan seterusnya...
+      
     ];
 function redirectToExternalLink(link) {
       window.location.href = (link);
     }
-    // Ambil id acara dari query parameter
+    
     const urlParams = new URLSearchParams(window.location.search);
     const eventId = urlParams.get('id');
 
@@ -150,8 +150,6 @@ function redirectToExternalLink(link) {
       const informasiButton = document.getElementById("informasiButton");
 
   informasiButton.addEventListener("click", () => {
-    // Aksi yang ingin dilakukan saat tombol Register diklik
-    // Menggunakan registerLink untuk mengarahkan pengguna ke link website yang sesuai
     window.location.href = event.informasiLink;
   });
     } else {
