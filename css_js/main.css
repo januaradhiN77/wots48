@@ -901,4 +901,128 @@ html{
   font-weight: 400;
   color: #FF5555;
 }
+
+
+.event-content{
+
+  display: flex;
+
+  position: fixed;
+  z-index: -4;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0px 0 0px;
+  height: auto;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  border-radius: 15px 15px 0 0;
+}
+.batas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  width:220px;
+}
+.event{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin-top: 20px;
+}
+.event-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  height: 90vh;
+  margin-top: -117px;
+  overflow: auto;
+  justify-content: center;
+}
+.event-box{
+  display: flex;
+  flex-direction: column;
+}
+.infoevent img{
+  width: 60px;
+}
+.imageevent img{
+  width: 100%;
+}
+.infoevent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.infoevent-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 5px;
+}
+.infoevent p{
+  font-size: 25px;
+  color: #FF3131;
+  font-weight: 500;
+}
+.buttoninfo{
+  margin-top: 30px;
+}
+.buttoninfo p{
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #FF5959;
+  align-items: center;
+  width: 230px;
+  font-weight: 500;
+  color: #FF3636;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: -15px;
+}
+.buttoninfo p:hover{
+  background-color: #FF3636;
+  color: #FFFFFF;
+  transition: 0.2s ease;
+}
+.buttoninfo p:not(:hover){
+  transition: 0.2s ease;
+}
+.member-perform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  width: 100%;
+}
+.text-mp{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.text-mp h1{
+  font-weight: 500;
+  font-size: 20px;
+}
+.daftar-mp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-left: -10px;
+}
 }
