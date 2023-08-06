@@ -148,7 +148,7 @@ html{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 }
 .birthday-box{
   display: flex;
