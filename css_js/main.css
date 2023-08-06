@@ -232,7 +232,8 @@ html{
   text-align: left;
   margin-left: 10px;
   font-weight: 400;
-  font-size: medium;
+  margin-top:15px; 
+  font-size: large;
 }
 .card-mc h2{
   font-size: large;
@@ -242,12 +243,13 @@ html{
   align-items: left;
   text-align: left;
   margin-left: 10px;
+  margin-top: -5px;
 }
 .container-mc .card-mc img{
   width: 150px;
-  height: 150px;
-  padding: 10px;
-  border-radius:20px; 
+  height: 130px;
+  padding: 0px;
+  border-radius: 10px 10px 0px 0px; 
 }
 .text-merch{
   display: flex;
