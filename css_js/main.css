@@ -419,13 +419,7 @@ html{
   font-size: 15px;
   margin-left: 10px;
 }
-.jadwal-box h1{
-  color: #00000094;
-  font-size: 15px;
-  margin-left: 10px;
-  font-weight: 400;
-  margin-top: 5px;
-}
+
 .jadwal-box{
   width: 180px;
   border-radius: 10px;
@@ -445,7 +439,25 @@ html{
   border-radius: 10px 10px 0 0;
   margin-top: 0px;
 }
-
+.jumlah_member{
+ display: flex;
+ width: 100%;
+ margin-left: -15px;
+}
+.jumlah_member h1{
+ color: #00000094;
+ font-size: 15px;
+ margin-left: 10px;
+ font-weight: 400;
+ margin-top: 5px;
+ margin-left: 5px;
+}
+.jumlah_member img{
+  width: 15px;
+  height: 17px;
+  margin-top: 4px;
+  margin-left: 30px;
+}
 
 
 
