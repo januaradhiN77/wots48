@@ -1,4 +1,4 @@
-const allSkeleton = document.querySelectorAll('')
+const allSkeleton = document.querySelectorAll('.skeleton')
 
 window.addEventListener('load', function() {
   allSkeleton.forEach(item=> {
@@ -6,5 +6,5 @@ window.addEventListener('load', function() {
   })
 })
 function openEventDetailPage(eventId) {
-      window.location.href = `event_(d)etail.html?id=${eventId}`;
+      window.location.href = `event_detail.html?id=${eventId}`;
     }
