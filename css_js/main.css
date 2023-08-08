@@ -483,7 +483,7 @@ html{
     z-index: 10;
     background: linear-gradient(90deg, #eee, #f9f9f9, #eee);
     background-size: 200%;
-    animation: skeleton 3s infinite reverse;
+    animation: skeleton 0.3s infinite reverse;
 }
 @keyframes skeleton {
     0% {
