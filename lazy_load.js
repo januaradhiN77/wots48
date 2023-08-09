@@ -22,6 +22,7 @@ searchInput.addEventListener("input", function() {
       item.style.display = "block";
     } else {
       item.style.display = "none";
+      
     }
   });
 });
