@@ -400,7 +400,7 @@ html{
   flex-wrap: wrap;
   width: 100%;
   gap: 1rem;
-  height: 90vh;
+  height: 93vh;
   margin-top: -10vh;
   overflow: auto;
   justify-content: center;
@@ -465,6 +465,7 @@ html{
    display: flex;
    justify-content: center;
    align-items: center;
+   
 }
 .search input{
    width: 340px;
