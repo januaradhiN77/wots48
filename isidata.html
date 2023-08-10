@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Showroom Data - Input</title>
+</head>
+<body>
+    <h1>Showroom Data - Input</h1>
+    
+    <label for="nama">Nama Showroom:</label>
+    <input type="text" id="nama" placeholder="Masukkan nama showroom"><br>
+    
+    <label for="jam">Jam Showroom:</label>
+    <input type="text" id="jam" placeholder="Masukkan jam showroom"><br>
+    
+    <label for="gambar">Link Gambar Showroom:</label>
+    <input type="text" id="gambar" placeholder="Masukkan URL gambar"><br>
+    
+    <label for="tampilanLink">Link Tampilan Data:</label>
+    <input type="text" id="tampilanLink" placeholder="Masukkan URL tampilan data"><br>
+    
+    <button id="saveButton">Save Data</button>
+    <button id="tampilanButton">Lihat Tampilan</button>
+    <button id="hapusDataButton">Hapus Data</button>
+    
+    <script>
+        function goToWebsite(url) {
+            window.location.href = url;
+        }
+        
+        document.getElementById("saveButton").addEventListener("click", function() {
+            var nama = document.getElementById("nama").value;
+            var jam = document.getElementById("jam").value;
+            var gambarLink = document.getElementById("gambar").value;
+            var tampilanLink = document.getElementById("tampilanLink").value;
+            
+            var data = {
+                nama: nama,
+                jam: jam,
+                gambarLink: gambarLink,
+                tampilanLink: tampilanLink
+            };
+            
+            var existingData = localStorage.getItem("showroomData");
+            if (existingData) {
+                existingData = JSON.parse(existingData);
+                existingData.push(data);
+                localStorage.setItem("showroomData", JSON.stringify(existingData));
+            } else {
+                localStorage.setItem("showroomData", JSON.stringify([data]));
+            }
+            
+            alert("Data berhasil disimpan!");
+        });
+
+        document.getElementById("tampilanButton").addEventListener("click", function() {
+            var tampilanLink = document.getElementById("tampilanLink").value;
+            if (tampilanLink) {
+                goToWebsite("showroom.html");
+            } else {
+                alert("Masukkan URL tampilan data terlebih dahulu.");
+            }
+        });
+
+        document.getElementById("hapusDataButton").addEventListener("click", function() {
+            localStorage.removeItem("showroomData");
+            alert("Data showroom dihapus!");
+        });
+    </script>
+</body>
+</html>

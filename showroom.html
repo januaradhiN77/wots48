@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Showroom Data - Tampilan</title>
+</head>
+<body>
+    <h1>Showroom Data - Tampilan</h1>
+    
+    <div id="dataContainer"></div>
+    
+    <script>
+        var savedData = localStorage.getItem("showroomData");
+        if (savedData) {
+            var data = JSON.parse(savedData);
+            var dataContainer = document.getElementById("dataContainer");
+            
+            for (var i = 0; i < data.length; i++) {
+                var dataDiv = document.createElement("div");
+                dataDiv.innerHTML = "<h2>Data " + (i + 1) + "</h2>" +
+                                    "<p><strong>Nama Showroom:</strong> " + data[i].nama + "</p>" +
+                                    "<p><strong>Jam Showroom:</strong> " + data[i].jam + "</p>" +
+                                    "<a href='" + data[i].tampilanLink + "' target='_blank'>" +
+                                    "<img src='" + data[i].gambarLink + "' width='200'></a>";
+                dataContainer.appendChild(dataDiv);
+            }
+        } else {
+            alert("Tidak ada data yang tersimpan.");
+        }
+    </script>
+</body>
+</html>
