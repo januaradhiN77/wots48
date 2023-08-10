@@ -954,7 +954,7 @@ html{
   margin-left: 10px;
   margin-top: 10px;
   
-  gap: 1px;
+  gap: 0px;
 }
 .infosr p{
   color: #FF4343;
