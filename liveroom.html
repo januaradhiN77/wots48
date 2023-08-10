@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wots48 - Jadwal</title>
+  <title>Tampilan Data Showroom</title>
   <link rel="stylesheet" href="../css_js/main.css">
 </head>
 <body>
-    
-<section class="live-content">
-  <div class="live">
-    <div class="live-container" id="dataContainer">
-</section>
+    <header>
+        <div class="headertext">
+            <h1>JKT48</h1>
+        </div>
+    </header>
+
+    <section class="live-content">
+        <div class="live-container">
+            <div class="live-box">
+                <ul id="showroomList"></ul>
+            </div>
+        </div>
+    </section>
+
     <script>
-        var savedData = localStorage.getItem("showroomData");
-        if (savedData) {
-            var data = JSON.parse(savedData);
-            var dataContainer = document.getElementById("dataContainer");
-            
-            for (var i = 0; i < data.length; i++) {
-                var dataDiv = document.createElement("div");
-                dataDiv.innerHTML = "<h2>Data " + (i + 1) + "</h2>" +
-                                    "<p><strong>Nama Showroom:</strong> " + data[i].nama + "</p>" +
-                                    "<p><strong>Jam Showroom:</strong> " + data[i].jam + "</p>" +
-                                    "<a href='" + data[i].tampilanLink + "' target='_blank'>" +
-                                    "<img src='" + data[i].gambarLink + "' width='200'></a>";
-                dataContainer.appendChild(dataDiv);
-            }
-        } else {
-            alert("Tidak ada data yang tersimpan.");
+        var existingData = localStorage.getItem("showroomData");
+        if (existingData) {
+            var showroomData = JSON.parse(existingData);
+            var showroomList = document.getElementById("showroomList");
+
+            showroomData.forEach(function(data) {
+                var listItem = document.createElement("li");
+                listItem.innerHTML = "<a href='" + data.linkTujuan + "'>" +
+                                        "<img src='" + data.gambarLink + "' alt='Gambar Showroom'></a><br><br>" +
+                                        "<div class='infosr'>" +
+                                            "<span><strong>Nama Showroom:</strong></span> " + "<span>" + data.nama + "</span><br>" +
+                                            "<span><strong>Broadcasting Showroom:</strong></span> " + "<span>" + data.broadcasting + "</span><br>" +
+                                            "<span><strong>Platform:</strong></span> " + "<span>" + data.platform + "</span>" +
+                                        "</div>";
+
+                showroomList.appendChild(listItem);
+            });
         }
     </script>
 </body>

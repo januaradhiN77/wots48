@@ -1,49 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wots48 - Jadwal</title>
+  <title>Input Data Showroom</title>
   <link rel="stylesheet" href="../css_js/main.css">
 </head>
 <body>
-    <h1>Showroom Data - Input</h1>
-    
-    <label for="nama">Nama Showroom:</label>
-    <input type="text" id="nama" placeholder="Masukkan nama showroom"><br>
-    
-    <label for="jam">Jam Showroom:</label>
-    <input type="text" id="jam" placeholder="Masukkan jam showroom"><br>
-    
-    <label for="gambar">Link Gambar Showroom:</label>
-    <input type="text" id="gambar" placeholder="Masukkan URL gambar"><br>
-    
-    <label for="tampilanLink">Link Tampilan Data:</label>
-    <input type="text" id="tampilanLink" placeholder="Masukkan URL tampilan data"><br>
-    
-    <button id="saveButton">Save Data</button>
-    <button id="tampilanButton">Lihat Tampilan</button>
-    <button id="hapusDataButton">Hapus Data</button>
-    
+    <header>
+        <div class="headertext">
+            <h1>JKT48</h1>
+        </div>
+    </header>
+
+    <section class="input-content">
+        <div class="input-container">
+            <div class="input-box">
+                <form id="inputForm">
+                    <label for="nama">Nama Showroom:</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama showroom" required><br>
+
+                    <label for="broadcasting">Broadcasting Showroom:</label>
+                    <input type="text" id="broadcasting" placeholder="Masukkan broadcasting showroom" required><br>
+
+                    <label for="platform">Platform:</label>
+                    <input type="text" id="platform" placeholder="Masukkan platform" required><br>
+
+                    <label for="gambar">Link Gambar:</label>
+                    <input type="text" id="gambar" placeholder="Masukkan URL gambar" required><br>
+
+                    <label for="link">Link:</label>
+                    <input type="text" id="link" placeholder="Masukkan URL tujuan" required><br>
+
+                    <button type="button" id="saveButton">Save Data</button>
+                    <button type="button" id="viewButton">View Data</button>
+                    <button type="button" id="deleteButton">Delete Data</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <script>
-        function goToWebsite(url) {
-            window.location.href = url;
-        }
-        
         document.getElementById("saveButton").addEventListener("click", function() {
             var nama = document.getElementById("nama").value;
-            var jam = document.getElementById("jam").value;
+            var broadcasting = document.getElementById("broadcasting").value;
+            var platform = document.getElementById("platform").value;
             var gambarLink = document.getElementById("gambar").value;
-            var tampilanLink = document.getElementById("tampilanLink").value;
-            
+            var linkTujuan = document.getElementById("link").value;
+
             var data = {
                 nama: nama,
-                jam: jam,
+                broadcasting: broadcasting,
+                platform: platform,
                 gambarLink: gambarLink,
-                tampilanLink: tampilanLink
+                linkTujuan: linkTujuan
             };
-            
+
             var existingData = localStorage.getItem("showroomData");
             if (existingData) {
                 existingData = JSON.parse(existingData);
@@ -52,28 +65,18 @@
             } else {
                 localStorage.setItem("showroomData", JSON.stringify([data]));
             }
-            
+
             alert("Data berhasil disimpan!");
         });
 
-        document.getElementById("tampilanButton").addEventListener("click", function() {
-            var tampilanLink = document.getElementById("tampilanLink").value;
-            if (tampilanLink) {
-                goToWebsite("liveroom.html");
-            } else {
-                alert("Masukkan URL tampilan data terlebih dahulu.");
-            }
+        document.getElementById("viewButton").addEventListener("click", function() {
+            window.location.href = "tampilan.html";
         });
 
-        document.getElementById("hapusDataButton").addEventListener("click", function() {
+        document.getElementById("deleteButton").addEventListener("click", function() {
             localStorage.removeItem("showroomData");
             alert("Data showroom dihapus!");
         });
     </script>
-    <script src="../css_js/main.js"></script>
-<script src="../css_js/data_event.js"></script>
-<script src="../css_js/button_data.js"></script>
-<script src="../css_js/data_member.js"></script>
-<script src="../css_js/data_image.js"></script>
 </body>
 </html>
