@@ -44,6 +44,6 @@ updateTextForElements("15 Show", 'h2.sh37-text');
 updateTextForElements("15 Show", 'h2.sh38-text');
 updateTextForElements("15 Show", 'h2.sh39-text');
 updateTextForElements("16 Show", 'h2.sh40-text');
-updateTextForElements("15 Show", 'h2.sh41-text');
+updateTextForElements("13 Show", 'h2.sh41-text');
 updateTextForElements("15 Show", 'h2.sh42-text');
 updateTextForElements("16 Show", 'h2.sh43-text');
