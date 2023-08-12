@@ -132,31 +132,45 @@ id: 4,
               
               // Belum Dipakai //
 id: 6,
-        title: "",
-        date: "##:00,  Agustus 2023",
+        title: "Tunas di Balik Seragam",
+        date: "16 Agustus 2023",
         icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-        image: "https://jkt48webfans.netlify.app/poster.###.jpg",
-        informasiLink: "",
-                members: [
-          { name: "Christy", link: "christy.html", photo: "https://jkt48.com/profile/angelina_christy.jpg?v=20230116", status: "Anggota JKT48"},
-          { name: "Lia", link: "lia.html", photo: "https://jkt48.com/profile/aurellia.jpg?v=20230116", status: "Anggota JKT48" },
-                    { name: "Zee",  link: "zee.html", photo: "https://jkt48.com/profile/azizi_asadel.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Callie", link: "callie.html", photo: "https://jkt48.com/profile/callista_alifia.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Fiony", link: "fiony.html", photo: "https://jkt48.com/profile/fiony_alveria.jpg?v=20230116", status: "Anggota JKT48"},
-                    { name: "Flora",  link: "flora.html", photo: "https://jkt48.com/profile/flora_shafiq.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Sisca",  link: "sisca.html", photo: "https://jkt48.com/profile/fransisca_saraswati_puspa_dewi.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Freya", link: "freya.html", photo: "https://jkt48.com/profile/freya_jayawardana.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Ella", link: "ella.html", photo: "https://jkt48.com/profile/gabriela_abigail.jpg?v=20230116" , status: "Anggota JKT48"},
-                              { name: "Eli",  link: "eli.html", photo: "https://jkt48.com/profile/helisma_putri.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Indira", link: "indira.html", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116" , status: "Anggota JKT48"},
-          { name: "Kathrina", link: "kathrina.html", photo: "https://jkt48.com/profile/kathrina_irene.jpg?v=20230116" , status: "Anggota JKT48"},
-          { name: "Lulu", link: "lulu.html", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116" , status: "Anggota JKT48"},
-          { name: "Raisha", link: "raisha.html", photo: "https://jkt48.com/profile/raisha_syifa.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Gracia", link: "gracia.html", photo: "https://jkt48.com/profile/shania_gracia.jpg?v=20230116", status: "Anggota JKT48" },
-        ]
+        image: "https://jkt48webfans.netlify.app/poster.tunasdibalikseragam.jpg",
+        informasiLink: "https://jkt48.com/calendar/list?lang=id",
+        members: [
+          
+          ]
+                
         
       },
+            {
+              
+
+id: 7,
+        title: "Cara Meminum Ramune",
+        date: "18 Agustus 2023",
+        icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+        image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+        informasiLink: "https://jkt48.com/calendar/list?lang=id",
+members: [
+          
+          ]
+        
+      },
+            {
+      
+                    // Belum Dipakai //
+                    id: 8,
+                    title: "Ingin Bertemu",
+                    date: "20 Agustus 2023",
+                    icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                    image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                    informasiLink: "https://jkt48.com/calendar/list?lang=id",
+members: [
+
+          ]
+      
+            },
     ];
 function redirectToExternalLink(link) {
       window.location.href = (link);
