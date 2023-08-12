@@ -162,7 +162,7 @@ members: [
                     // Belum Dipakai //
                     id: 8,
                     title: "Ingin Bertemu",
-                    date: "16:00, Minggu20 Agustus 2023",
+                    date: "16:00, Minggu 20 Agustus 2023",
                     icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                     image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
                     informasiLink: "https://jkt48.com/theater/schedule/id/2579?lang=id",
