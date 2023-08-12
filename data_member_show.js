@@ -133,10 +133,10 @@ id: 4,
               // Belum Dipakai //
 id: 6,
         title: "Tunas di Balik Seragam",
-        date: "16 Agustus 2023",
+        date: "19:00, Rabu 16 Agustus 2023",
         icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
         image: "https://jkt48webfans.netlify.app/poster.tunasdibalikseragam.jpg",
-        informasiLink: "https://jkt48.com/calendar/list?lang=id",
+        informasiLink: "https://jkt48.com/theater/schedule/id/2577?lang=id",
         members: [
           
           ]
@@ -148,10 +148,10 @@ id: 6,
 
 id: 7,
         title: "Cara Meminum Ramune",
-        date: "18 Agustus 2023",
+        date: "19:00, Jumat 18 Agustus 2023",
         icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
         image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
-        informasiLink: "https://jkt48.com/calendar/list?lang=id",
+        informasiLink: "https://jkt48.com/theater/schedule/id/2578?lang=id",
 members: [
           
           ]
@@ -162,10 +162,10 @@ members: [
                     // Belum Dipakai //
                     id: 8,
                     title: "Ingin Bertemu",
-                    date: "20 Agustus 2023",
+                    date: "16:00, Minggu20 Agustus 2023",
                     icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                     image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
-                    informasiLink: "https://jkt48.com/calendar/list?lang=id",
+                    informasiLink: "https://jkt48.com/theater/schedule/id/2579?lang=id",
 members: [
 
           ]
