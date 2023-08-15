@@ -174,7 +174,6 @@ members: [
           { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Daisy", link: "daisy.html", photo: "https://jkt48.com/profile/desy_natalia.jpg?v=20230116" , status: "Trainee JKT48"},
           { name: "Fiony", link: "fiony.html", photo: "https://jkt48.com/profile/fiony_alveria.jpg?v=20230116", status: "Anggota JKT48"},
-                    { name: "Flora",  link: "flora.html", photo: "https://jkt48.com/profile/flora_shafiq.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Ella",  link: "ella.html", photo: "https://jkt48.com/profile/gabriela_abigail.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Gita", link: "gita.html", photo: "https://jkt48.com/profile/gita_sekar_andarini.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Gracie", link: "gracie.html", photo: "https://jkt48.com/profile/grace_octaviani.jpg?v=20230116" , status: "Trainee JKT48"},
