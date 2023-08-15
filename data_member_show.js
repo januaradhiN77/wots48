@@ -170,7 +170,6 @@ id: 7,
 members: [
           { name: "Ashel", link: "ashel.html", photo: "https://jkt48.com/profile/adzana_shaliha.jpg?v=20230116", status: "Anggota JKT48"},
           { name: "Lia", link: "lia.html", photo: "https://jkt48.com/profile/aurellia.jpg?v=20230116", status: "Anggota JKT48" },
-                    { name: "Zee",  link: "zee.html", photo: "https://jkt48.com/profile/azizi_asadel.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Callie", link: "callie.html", photo: "https://jkt48.com/profile/callista_alifia.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Daisy", link: "daisy.html", photo: "https://jkt48.com/profile/desy_natalia.jpg?v=20230116" , status: "Trainee JKT48"},
