@@ -58,6 +58,7 @@ addImageToElement('michieimg', 'https://jkt48.com/profile/michelle_alexandra.jpg
 
 
 
+//SHOWROOM IMAGE MEMBER :)
 
 
 
@@ -70,7 +71,11 @@ addImageToElement('michieimg', 'https://jkt48.com/profile/michelle_alexandra.jpg
 
 
 
-addImageToElement('aurelliasr', 'https://jkt48webfans.netlify.app/lia.sr.play.png');
 
+
+addImageToElement('gitasr', 'https://static.showroom-live.com/image/room/cover/388fa55ee4ee2a438a34d1b0a71de03f472b76b5560203930f103850edb577c8_s.jpeg?v=1675092700');
+
+
+addImageToElement('gendissr', 'https://static.showroom-live.com/image/room/cover/4e2f064db08d9b22d45a2ff98271ca8754e2f058981823193d38c8e22cb09e00_s.jpeg?v=1683720244');
 
 
