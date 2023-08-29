@@ -74,7 +74,7 @@ addImageToElement('idnapp', 'https://pbs.twimg.com/media/F4nhE1uasAAWdvN?format=
 
 
 addImageToElement('gitasr', 'https://static.showroom-live.com/image/room/cover/388fa55ee4ee2a438a34d1b0a71de03f472b76b5560203930f103850edb577c8_s.jpeg?v=1675092700');
-
+addImageToElement('fionysr', 'https://static.showroom-live.com/image/room/cover/a2345e2127cf122ef7adb9d988a41e080dbd7f0db28bfc113335b7a341b68c7e_s.jpeg?v=1675092072');
 
 addImageToElement('gendissr', 'https://static.showroom-live.com/image/room/cover/4e2f064db08d9b22d45a2ff98271ca8754e2f058981823193d38c8e22cb09e00_s.jpeg?v=1683720244');
 
