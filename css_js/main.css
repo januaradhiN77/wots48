@@ -1118,7 +1118,7 @@ html{
   align-items: center;
   flex-direction: column;
   margin-left: 0px;
-  display: none;
+  
 }
 .no-live img{
   width: 70px;
