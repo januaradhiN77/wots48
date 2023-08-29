@@ -53,10 +53,10 @@ addImageToElement('michieimg', 'https://jkt48.com/profile/michelle_alexandra.jpg
 
 
 
+//IDN Thumbnail
 
 
-
-
+addImageToElement('idnapp', 'https://pbs.twimg.com/media/F4nhE1uasAAWdvN?format=jpg&name=medium');
 
 //SHOWROOM IMAGE MEMBER :)
 
