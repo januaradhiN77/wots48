@@ -2,7 +2,7 @@
 var jadwalElement = document.getElementById("jadwal_time"); // Ganti "jadwal" dengan ID elemenmu
 
 // Tentukan tanggal dan waktu target
-var targetDate = new Date("2023-08-29T17:47:00"); // Ganti dengan tanggal dan waktu yang sesuai
+var targetDate = new Date("2023-08-29T17:55:00"); // Ganti dengan tanggal dan waktu yang sesuai
 
 // Fungsi untuk memeriksa dan ubah tampilan
 function updateDisplay() {
