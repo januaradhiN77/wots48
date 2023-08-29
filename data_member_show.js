@@ -264,6 +264,65 @@ members: [
         ]
       
             },
+            
+        {
+        id: 11,
+        title: "Aturan Anti Cinta",
+        date: "15:00, Sabtu 2 September 2023",
+        icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+        image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
+        informasiLink: "https://jkt48.com/theater/schedule/id/2582?lang=id",
+                members: [
+          { name: "Ashel", link: "ashel.html", photo: "https://jkt48.com/profile/adzana_shaliha.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Callie", link: "callie.html", photo: "https://jkt48.com/profile/callista_alifia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Feni", link: "feni.html", photo: "https://jkt48.com/profile/feni_fitriyanti.jpg?v=20230116", status: "Anggota JKT48"},
+                    { name: "Sisca",  link: "sisca.html", photo: "https://jkt48.com/profile/fransisca_saraswati_puspa_dewi.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Gita",  link: "gita.html", photo: "https://jkt48.com/profile/gita_sekar_andarini.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Eli", link: "eli.html", photo: "https://jkt48.com/profile/helisma_putri.jpg?v=20230116" , status: "Anggota JKT48"},
+                              { name: "Indira",  link: "indira.html", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Lyn", link: "lyn.html", photo: "https://jkt48.com/profile/jesslyn_elly.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Lulu", link: "lulu.html", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Muthe", link: "muthe.html", photo: "https://jkt48.com/profile/mutiara_azzahra.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Raisha", link: "raisha.html", photo: "https://jkt48.com/profile/raisha_syifa.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Adel", link: "chika.html", photo: "https://jkt48.com/profile/reva_fidela.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Shani", link: "shani.html", photo: "https://jkt48.com/profile/shani_indira_natio.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Gracia", link: "gracia.html", photo: "https://jkt48.com/profile/shania_gracia.jpg?v=20230116" , status: "Anggota JKT48"},
+                ]  
+          },
+         
+        
+            {
+id: 12,
+        title: "Cara Meminum Ramune",
+        date: "16:00, Minggu 3 September 2023",
+        icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+        image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+        informasiLink: "https://jkt48.com/theater/schedule/id/2583?lang=id",
+members: [
+          { name: "Christy", link: "christy.html", photo: "https://jkt48.com/profile/angelina_christy.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Lia", link: "lia.html", photo: "https://jkt48.com/profile/aurellia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Feni", link: "feni.html", photo: "https://jkt48.com/profile/feni_fitriyanti.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Fiony", link: "fiony.html", photo: "https://jkt48.com/profile/fiony_alveria.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Freya",  link: "freya.html", photo: "https://jkt48.com/profile/freya_jayawardana.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Gita", link: "gita.html", photo: "https://jkt48.com/profile/gita_sekar_andarini.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Eli", link: "eli.html", photo: "https://jkt48.com/profile/helisma_putri.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Indira", link: "indira.html", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Marsha", link: "marsha.html", photo: "https://jkt48.com/profile/marsha_lenathea.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Michie", link: "michie.html", photo: "https://jkt48.com/profile/michelle_alexandra.jpg?v=20230116" , status: "Trainee JKT48"},
+          { name: "Muthe", link: "muthe.html", photo: "https://jkt48.com/profile/mutiara_azzahra.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Shani", link: "shani.html", photo: "https://jkt48.com/profile/shani_indira_natio.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Gracia", link: "gracia.html", photo: "https://jkt48.com/profile/shania_gracia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116" , status: "Anggota JKT48"},
+        ]
+        
+      },
+          
+         
+            
     ];
 function redirectToExternalLink(link) {
       window.location.href = (link);
