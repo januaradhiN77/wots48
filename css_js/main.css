@@ -922,6 +922,7 @@ html{
   height: 100vh;
   width: 100%;
   margin-top: 20px;
+  
 }
 .live-container{
   display: flex;
@@ -932,6 +933,7 @@ html{
   margin-top: 0vh;
   overflow: auto;
   justify-content: center;
+  
 }
 .live-box img{
   width: 350px;
@@ -1110,5 +1112,19 @@ html{
   justify-content: center;
   align-items: center;
 }
-
+.no-live{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0px;
+  
+}
+.no-live img{
+  width: 70px;
+}
+.no-live h1{
+  font-weight: 400;
+  color: #FF5555;
+}
 }
