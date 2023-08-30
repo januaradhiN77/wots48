@@ -70,7 +70,7 @@ addImageToElement('idnapp', 'https://pbs.twimg.com/media/F4nhE1uasAAWdvN?format=
 
 addImageToElement('ashelsr', 'https://static.showroom-live.com/image/room/cover/1f4eca57063fe3f6be0bf5a66adefd5e3afa7395324c0a95e572a533c8c1f89a_s.jpeg?v=1675092239');
 
-
+addImageToElement('liasr', 'https://static.showroom-live.com/image/room/cover/104f71ef35980e70baeb6a7ed59f18c7374f9a33bf7d1720a0581b8a0b2edb1e_s.jpeg?v=1685542598');
 
 
 addImageToElement('gitasr', 'https://static.showroom-live.com/image/room/cover/388fa55ee4ee2a438a34d1b0a71de03f472b76b5560203930f103850edb577c8_s.jpeg?v=1675092700');
