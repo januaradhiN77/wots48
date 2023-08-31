@@ -79,4 +79,9 @@ addImageToElement('indahsr', 'https://static.showroom-live.com/image/room/cover/
 addImageToElement('gendissr', 'https://static.showroom-live.com/image/room/cover/4e2f064db08d9b22d45a2ff98271ca8754e2f058981823193d38c8e22cb09e00_s.jpeg?v=1683720244');
 addImageToElement('ollasr', 'https://static.showroom-live.com/image/room/cover/79b9c42d1f5ea5d5805fefcfac6e92198e434cd6b6244c79b309b9e93ab3f7cb_s.jpeg?v=1675092110');
 addImageToElement('michiesr', 'https://static.showroom-live.com/image/room/cover/fc878be06fb484b4edcb8051e8456a93279b2395e711aada3d7547b1b78e3720_s.jpeg?v=1683720193');
+
+
+addImageToElement('cathysr', 'https://static.showroom-live.com/image/room/cover/bd930dc883c8d96916deacf2bff1827f387b1cf86a3042b7fd95352c44a5bba3_s.jpeg?v=1683720304');
+
+
 addImageToElement('jeanesr', 'https://static.showroom-live.com/image/room/cover/cd068c05e4e342a9986c37a00f0342cfdfa346221a685af4e1f5fbe8a55ad58a_s.jpeg?v=1683720205');
