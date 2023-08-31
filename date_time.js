@@ -18,7 +18,7 @@ function updateDisplay() {
 }
 
 // Panggil fungsi updateDisplay secara berkala
-setInterval(updateDisplay, 0); // Cek setiap detik
+setInterval(updateDisplay, 1); // Cek setiap detik
 
 // Panggil updateDisplay saat halaman dimuat
 updateDisplay();
