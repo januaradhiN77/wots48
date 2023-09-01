@@ -1,10 +1,15 @@
-const allSkeleton = document.querySelectorAll('.skeleton')
+const allSkeleton = document.querySelectorAll('.skeleton');
 
 window.addEventListener('load', function() {
-  allSkeleton.forEach(item=> {
-    item.classList.remove('skeleton')
-  })
-})
+  setTimeout(function() {
+    allSkeleton.forEach(item => {
+      item.classList.remove('skeleton');
+    });
+  }, 1000);
+});
+
+
+
 function openEventDetailPage(eventId) {
       window.location.href = `event_detail.html?id=${eventId}`;
     }
