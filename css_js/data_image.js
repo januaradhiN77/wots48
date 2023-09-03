@@ -72,6 +72,8 @@ addImageToElement('idnapp', '6066066066');
 
 addImageToElement('ashelsr', 'https://static.showroom-live.com/image/room/cover/1f4eca57063fe3f6be0bf5a66adefd5e3afa7395324c0a95e572a533c8c1f89a_s.jpeg?v=1675092239');
 
+addImageToElement('siscasr', 'https://static.showroom-live.com/image/room/cover/495a0016a278e0830b9143a387a1908091c27b2415f561dfb9683aa062c7c87d_s.jpeg?v=1675092874');
+
 addImageToElement('liasr', 'https://static.showroom-live.com/image/room/cover/104f71ef35980e70baeb6a7ed59f18c7374f9a33bf7d1720a0581b8a0b2edb1e_s.jpeg?v=1685542598');
 
 
