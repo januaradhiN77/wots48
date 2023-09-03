@@ -82,7 +82,8 @@ addImageToElement('gitasr', 'https://static.showroom-live.com/image/room/cover/3
 addImageToElement('fionysr', 'https://static.showroom-live.com/image/room/cover/a2345e2127cf122ef7adb9d988a41e080dbd7f0db28bfc113335b7a341b68c7e_s.jpeg?v=1675092072');
 
 addImageToElement('indahsr', 'https://static.showroom-live.com/image/room/cover/58f3d939319e28956fd771e0f587a347ea0fec6b5c3415067e122f4794fd3514_s.jpeg?v=1675091960');
-
+addImageToElement('cynthiasr', 'https://static.showroom-live.com/image/room/cover/e3e88b5c96d4af6c2bd0e951809d808214a6bb8837903c1d8a83fa87ad1ea080_s.jpeg?v=1683727584');
+addImageToElement('graciesr', 'https://static.showroom-live.com/image/room/cover/510862226ac09996461772b226e5fa4a30ce574bce18672725724e0284c8fed2_s.jpeg?v=1683720231');
 addImageToElement('gendissr', 'https://static.showroom-live.com/image/room/cover/4e2f064db08d9b22d45a2ff98271ca8754e2f058981823193d38c8e22cb09e00_s.jpeg?v=1683720244');
 
 addImageToElement('ollasr', 'https://static.showroom-live.com/image/room/cover/79b9c42d1f5ea5d5805fefcfac6e92198e434cd6b6244c79b309b9e93ab3f7cb_s.jpeg?v=1675092110');
