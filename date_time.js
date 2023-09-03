@@ -1,7 +1,7 @@
-var jadwalElements = document.querySelectorAll(".none_date"); 
+var jadwalElements = document.querySelectorAll(".jadwal_date"); 
 
 
-var targetDate = new Date("2023-09-03T23:00:00"); 
+var targetDate = new Date("2023-09-01T00:00:00"); 
 
 
 function updateDisplay() {
@@ -9,9 +9,9 @@ function updateDisplay() {
 
   jadwalElements.forEach(function(jadwalElement) {
     if (currentDate < targetDate) {
-      jadwalElement.style.display = "block";
-    } else {
       jadwalElement.style.display = "none";
+    } else {
+      jadwalElement.style.display = "block";
     }
   });
 }
@@ -21,27 +21,3 @@ setInterval(updateDisplay, 1);
 
 
 updateDisplay();
-
-var blockElements = document.querySelectorAll(".block_date"); 
-
-
-var targetDate = new Date("2023-09-03T23:00:00"); 
-
-
-function updateBlock() {
-  var currentDate = new Date();
-
-  blockElements.forEach(function(blockElement) {
-    if (currentDate < targetDate) {
-      blockElement.style.display = "none";
-    } else {
-      blockElement.style.display = "block";
-    }
-  });
-}
-
-
-setInterval(updateBlock, 1);
-
-
-updateBlock();
