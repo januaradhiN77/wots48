@@ -329,7 +329,20 @@ members: [
         ]
         
       },
-          
+                  {  // Belum Dipakai //
+                    id: 13,
+                    title: "Ingin Bertemu",
+                    date: "16:00, Minggu 10 September 2023",
+                    icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                    image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                    informasiLink: "https://jkt48.com/theater/schedule/id/2584?lang=id",
+members: [
+
+
+
+        ]
+      
+            },
          
             
     ];
