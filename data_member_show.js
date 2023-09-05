@@ -337,7 +337,18 @@ members: [
                     image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
                     informasiLink: "https://jkt48.com/theater/schedule/id/2584?lang=id",
 members: [
-
+          { name: "Alya", link: "alya.html", photo: "https://jkt48.com/profile/alya_amanda.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Anindya", link: "anindya.html", photo: "https://jkt48.com/profile/anindya_ramadhani.jpg?v=20230116", status: "Trainee JKT48" },
+          { name: "Cathy", link: "cathy.html", photo: "https://jkt48.com/profile/cathleen_nixie.jpg?v=20230116", status: "Trainee JKT48" },
+          { name: "Chelsea", link: "chelsea.html", photo: "https://jkt48.com/profile/chelsea_davina.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Cynthia", link: "cynthia.html", photo: "https://jkt48.com/profile/cynthia_yaputera.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Danella", link: "danella.html", photo: "https://jkt48.com/profile/dena_natalia.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Daisy", link: "daisy.html", photo: "https://jkt48.com/profile/desy_natalia.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Gendis", link: "gendis.html", photo: "https://jkt48.com/profile/gendis_mayrannisa.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Gracie", link: "gracie.html", photo: "https://jkt48.com/profile/grace_octaviani.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Greesel", link: "greesel.html", photo: "https://jkt48.com/profile/greesella_adhalia.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Jeane", link: "jeane.html", photo: "https://jkt48.com/profile/jeane_victoria.jpg?v=20230116", status: "Trainee JKT48"  },
+          { name: "Michie", link: "michie.html", photo: "https://jkt48.com/profile/michelle_alexandra.jpg?v=20230116", status: "Trainee JKT48"  },
 
 
         ]
