@@ -369,7 +369,7 @@ members: [
 
                     },
                     {
-                    id: 13,
+                    id: 14,
                             title: "Tunas di Balik Seragam",
                             date: "19:00, Sabtu 16 September 2023",
                             icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
@@ -382,7 +382,7 @@ members: [
 
                     },
                     {
-                    id: 13,
+                    id: 15,
                             title: "Ingin Bertemu",
                             date: "16:00, Minggu 17 September 2023",
                             icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
