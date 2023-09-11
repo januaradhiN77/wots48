@@ -11,7 +11,8 @@ window.addEventListener('load', function() {
 
 
 function openEventDetailPage(eventId) {
-      window.location.href = `event_detail.html?id=${eventId}`;
+      //window.location.href = `event_detail.html?id=${eventId}`;
+      alert("Event tidak ditemukan!");
     }
     
 const searchInput = document.getElementById("searchInput");
