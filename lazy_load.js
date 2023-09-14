@@ -13,7 +13,7 @@ window.addEventListener('load', function() {
 function openEventDetailPage(eventId) {
     //window.location.href = `event_detail.html?id=${eventId}`;
       //alert("Event tidak ditemukan!. 4000");
-      alert("Oops! Terjadi kesalahan memproses data. 4000")
+      alert("Oops! Terjadi kesalahan saat memproses data. 4000")
     }
     
 const searchInput = document.getElementById("searchInput");
