@@ -436,7 +436,39 @@ members: [
         ]
 
                     },
-                    
+         {
+                    id: 17,
+                            title: "Cara Meminum Ramune",
+                            date: "Jumat 22 September 2023",
+                            icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                            image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                            informasiLink: "",
+                            members: [
+                                    
+                                    ]
+         },
+         {
+                    id: 18,
+                            title: "Tunas di Balik Seragam",
+                            date: "Sabtu 23 September 2023",
+                            icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                            image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                            informasiLink: "",
+                            members: [
+                                    
+                                    ]
+         },
+         {
+                 id: 19,
+                 title: "Ingin",
+                 date: "Minggu 24 September 2023",
+                 icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                 image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                 informasiLink: "",
+                 members: [
+
+                                    ]
+         },
     ];
 function redirectToExternalLink(link) {
       window.location.href = (link);
