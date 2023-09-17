@@ -463,7 +463,7 @@ members: [
                  title: "Ingin Bertemu",
                  date: "16:00, Minggu 24 September 2023",
                  icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                 image: "https://jkt48webfans.netlify.app/poster.inginbertemu.jpg",
+                 image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
                  informasiLink: "https://jkt48.com/theater/schedule/id/2590?lang=id",
                  members: [
 
