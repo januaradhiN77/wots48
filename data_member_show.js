@@ -439,32 +439,32 @@ members: [
          {
                     id: 17,
                             title: "Cara Meminum Ramune",
-                            date: "Jumat 22 September 2023",
+                            date: "19:00, Jumat 22 September 2023",
                             icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                             image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
-                            informasiLink: "",
+                            informasiLink: "https://jkt48.com/theater/schedule/id/2588?lang=id",
                             members: [
-                                    
+          { name: "Lyn", link: "lyn.html", photo: "https://jkt48.com/profile/jesslyn_elly.jpg?v=20230116", status: "Anggota JKT48"  },
                                     ]
          },
          {
                     id: 18,
                             title: "Tunas di Balik Seragam",
-                            date: "Sabtu 23 September 2023",
+                            date: "14:00, Sabtu 23 September 2023",
                             icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                             image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
-                            informasiLink: "",
+                            informasiLink: "https://jkt48.com/theater/schedule/id/2589?lang=id",
                             members: [
-                                    
+          { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116", status: "Anggota JKT48"  },
                                     ]
          },
          {
                  id: 19,
-                 title: "Ingin",
-                 date: "Minggu 24 September 2023",
+                 title: "Ingin Bertemu",
+                 date: "16:00, Minggu 24 September 2023",
                  icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                  image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
-                 informasiLink: "",
+                 informasiLink: "https://jkt48.com/theater/schedule/id/2590?lang=id",
                  members: [
 
                                     ]
