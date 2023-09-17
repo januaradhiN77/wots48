@@ -452,7 +452,7 @@ members: [
                             title: "Tunas di Balik Seragam",
                             date: "14:00, Sabtu 23 September 2023",
                             icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                            image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                            image: "https://jkt48webfans.netlify.app/poster.tunasdibalikseragam.jpg",
                             informasiLink: "https://jkt48.com/theater/schedule/id/2589?lang=id",
                             members: [
           { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116", status: "Anggota JKT48"  },
@@ -463,7 +463,7 @@ members: [
                  title: "Ingin Bertemu",
                  date: "16:00, Minggu 24 September 2023",
                  icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                 image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                 image: "https://jkt48webfans.netlify.app/poster.inginbertemu.jpg",
                  informasiLink: "https://jkt48.com/theater/schedule/id/2590?lang=id",
                  members: [
 
