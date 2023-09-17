@@ -95,5 +95,5 @@ addImageToElement('michiesr', 'https://static.showroom-live.com/image/room/cover
 addImageToElement('lynsr', 'https://static.showroom-live.com/image/room/cover/261d835846ccd54052d7bede79f89171d1f79af054ada2fecf81086644ff6ea4_s.jpeg?v=1685542810');
 addImageToElement('cathysr', 'https://static.showroom-live.com/image/room/cover/bd930dc883c8d96916deacf2bff1827f387b1cf86a3042b7fd95352c44a5bba3_s.jpeg?v=1683720304');
 addImageToElement('elinsr', 'https://static.showroom-live.com/image/room/cover/d0ab8b151a1a0f7c2a69ea29624ef4ae7800ef1bee00df7f8c0c1f103331079d_s.jpeg?v=1683720255');
-
+addImageToElement('onielsr', 'https://static.showroom-live.com/image/room/cover/6f5b72d14f8cf4d61ab8c16aa8b7a9c387c5f6de37f513a884b6fbadabb5784d_s.jpeg?v=1675092204');
 addImageToElement('jeanesr', 'https://static.showroom-live.com/image/room/cover/cd068c05e4e342a9986c37a00f0342cfdfa346221a685af4e1f5fbe8a55ad58a_s.jpeg?v=1683720205');
