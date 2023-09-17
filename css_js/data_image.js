@@ -70,7 +70,7 @@ addImageToElement('idnapp', 'https://pbs.twimg.com/media/F5vYES0bsAAlimf?format=
 addImageToElement('chelseasr', 'https://static.showroom-live.com/image/room/cover/b0c6197686670eb07c6f4c8bff0d2ca67b72f74280d04df61229076507dda3ff_s.jpeg?v=1683720353');
 addImageToElement('danellasr', 'https://static.showroom-live.com/image/room/cover/002771d7d8969132b8749564920a354426fad0c56857e3818de960035c560ed7_s.jpeg?v=1683720314');
 addImageToElement('lulusr', 'https://static.showroom-live.com/image/room/cover/b0dfb9a6b2a6d51b17d0149d72ac19992469d2734876ca2c1d55672ae91e0943_s.jpeg?v=1675091765');
-
+addImageToElement('jessisr', 'https://static.showroom-live.com/image/room/cover/293a846d52a0e9b04a50dafb6c0f80367256a0f3e2a7d9fdc5e92e572ad2415f_s.jpeg?v=1675091920');
 addImageToElement('alyasr', 'https://static.showroom-live.com/image/room/cover/0a1644ab1bc0333a175bbd13744995241b42a796d81fb939b5def608942a8e96_s.jpeg?v=1683720288');
 addImageToElement('ashelsr', 'https://static.showroom-live.com/image/room/cover/1f4eca57063fe3f6be0bf5a66adefd5e3afa7395324c0a95e572a533c8c1f89a_s.jpeg?v=1675092239');
 
