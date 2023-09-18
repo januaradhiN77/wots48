@@ -26,8 +26,26 @@ html{
       font-size: 30px;
       font-weight: 400;
       color: #FFFFFF;
+      
   }
+  .headertexthome{
+      justify-content: center;
+      display: flex;
+  }
+  .headertexthome h1{
 
+      font-size: 30px;
+
+      font-weight: 400;
+      color: #FFFFFF;
+      position: fixed;
+      background-image: url('https://u7.uidownload.com/vector/760/822/vector-polygon-tile-mosaic-background-polygonal-design-vector-eps-ai.jpg');
+      z-index: 100;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 4vh;
+  }
 /* Gaya tombol saat ditekan */
 .buttonmem:active {
   background-color: transparent;
@@ -44,7 +62,7 @@ html{
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 30px;
+     margin-top: 40px;
   }
   .slides{
   width: 95%;
