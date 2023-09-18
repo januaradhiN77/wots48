@@ -489,7 +489,7 @@ function redirectToExternalLink(link) {
       const memberList = document.getElementById("memberList");
       memberList.innerHTML = event.members.map((member) => `
 
-         <li onclick="redirectToExternalLink('${member.link}')"><div class="member-box">
+         <li onclick="redirectToExternalLink('${member.link} , storePreviousPage()')"><div class="member-box">
                <div class="border-member">
 <img src="${member.photo}" alt="${member.name}">
          
@@ -510,3 +510,10 @@ function redirectToExternalLink(link) {
     } else {
       alert("Event tidak ditemukan!");
     }
+    
+    
+
+function storePreviousPage() {
+  // Simpan URL halaman asal ke session storage
+  sessionStorage.setItem('previousPage', window.location.href);
+}
