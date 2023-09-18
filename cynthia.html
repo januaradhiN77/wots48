@@ -12,7 +12,7 @@
 
 <header>
         <div class="header_dm">
-           <button class="buttonmem" onclick="goToWebsite(`member.html`)"><h1 style="color: white; margin-top: 0px; font-size: 2rem; font-weight: 700;"><</h1></button>
+           <button class="buttonmem" onclick="goBack()"><h1 style="color: white; margin-top: 0px; font-size: 2rem; font-weight: 700;"><</h1></button>
                 <h1>Detail Member</h1>
         </div>
 </header>
@@ -140,7 +140,18 @@
 
     
 
+<script>
+        function goBack() {
+                const previousPage = sessionStorage.getItem('previousPage');
 
+
+                if (previousPage) {
+                        window.location.href = previousPage;
+                } else {
+                        window.history.back();
+                }
+        }
+</script>
   <script src="../css_js/main.js"></script>
           <script src="../css_js/data_member.js"></script>
           <script src="../css_js/data_show.js"></script>
