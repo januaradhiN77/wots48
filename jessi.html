@@ -154,10 +154,18 @@
     
 <script>
 function goBack() {
-  window.history.back();
+  // Ambil URL halaman asal dari session storage
+  const previousPage = sessionStorage.getItem('previousPage');
+  
+  // Kembali ke halaman asal
+  if (previousPage) {
+    window.location.href = previousPage;
+  } else {
+    // Jika tidak ada halaman asal yang tersimpan, kembali ke halaman default
+    window.history.back();
+  }
 }
 </script>
-
   <script src="../css_js/main.js"></script>
     <script src="../css_js/data_member.js"></script>
     <script src="../css_js/data_show.js"></script>

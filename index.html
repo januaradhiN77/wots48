@@ -107,7 +107,7 @@
                   <span>NEXT BIRTHDAY</span>
                         <div class="birthday">
                                 <div class="birthday-box">
-                           <button class="buttonmem" onclick="goToWebsite(`jessi.html`)"><div class="border"><div class="jessiimg"></div></div></button>
+                           <button class="buttonmem" onclick="goToWebsite(`jessi.html`) , storePreviousPage()"><div class="border"><div class="jessiimg"></div></div></button>
                              <span class="s1"></span>
                              <h1 class="anggota" data-name="13"></h1>
                                 </div>
@@ -374,7 +374,12 @@
         </div>
 </section>
 
-
+<script>
+function storePreviousPage() {
+  // Simpan URL halaman asal ke session storage
+  sessionStorage.setItem('previousPage', window.location.href);
+}
+</script>
 <script src="../css_js/data_member.js"></script>
   <script src="../css_js/data_image.js"></script>
   <script src="../css_js/birthday_name.js"></script>
