@@ -65,7 +65,7 @@ addImageToElement('idnapp', 'https://pbs.twimg.com/media/F6TZiLba8AA5OuT?format=
 
 
 
-
+addImageToElement('anindyasr', 'https://static.showroom-live.com/image/room/cover/ab71b7dec20fb6950c5afba136808e39486665d861f0592d1457a9682f78736b_s.jpeg?v=1683720272')
 
 addImageToElement('chelseasr', 'https://static.showroom-live.com/image/room/cover/b0c6197686670eb07c6f4c8bff0d2ca67b72f74280d04df61229076507dda3ff_s.jpeg?v=1683720353');
 addImageToElement('danellasr', 'https://static.showroom-live.com/image/room/cover/002771d7d8969132b8749564920a354426fad0c56857e3818de960035c560ed7_s.jpeg?v=1683720314');
