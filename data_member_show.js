@@ -479,7 +479,6 @@ members: [
           { name: "Fiony", link: "fiony.html", photo: "https://jkt48.com/profile/fiony_alveria.jpg?v=20230116", status: "Anggota JKT48"},
           { name: "Freya",  link: "freya.html", photo: "https://jkt48.com/profile/freya_jayawardana.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Greesel", link: "greesel.html", photo: "https://jkt48.com/profile/greesella_adhalia.jpg?v=20230116", status: "Trainee JKT48" },
-          { name: "Gracie", link: "gracie.html", photo: "https://jkt48.com/profile/grace_octaviani.jpg?v=20230116" , status: "Trainee JKT48"},
           { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Lyn", link: "lyn.html", photo: "https://jkt48.com/profile/jesslyn_elly.jpg?v=20230116", status: "Anggota JKT48"},
           { name: "Lulu", link: "lulu.html", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116" , status: "Anggota JKT48"},
