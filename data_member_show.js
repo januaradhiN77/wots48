@@ -444,7 +444,22 @@ members: [
                             image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
                             informasiLink: "https://jkt48.com/theater/schedule/id/2588?lang=id",
                             members: [
-          { name: "Lyn", link: "lyn.html", photo: "https://jkt48.com/profile/jesslyn_elly.jpg?v=20230116", status: "Anggota JKT48"  },
+          { name: "Ashel", link: "ashel.html", photo: "https://jkt48.com/profile/adzana_shaliha.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Lia", link: "lia.html", photo: "https://jkt48.com/profile/aurellia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Callie", link: "callie.html", photo: "https://jkt48.com/profile/callista_alifia.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Olla", link: "olla.html", photo: "https://jkt48.com/profile/febriola_sinambela.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Fiony", link: "fiony.html", photo: "https://jkt48.com/profile/fiony_alveria.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Flora",  link: "flora.html", photo: "https://jkt48.com/profile/flora_shafiq.jpg?v=20230116", status: "Anggota JKT48" },
+{ name: "Ella",  link: "ella.html", photo: "https://jkt48.com/profile/gabriela_abigail.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Gita", link: "gita.html", photo: "https://jkt48.com/profile/gita_sekar_andarini.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Indira", link: "indira.html", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Lyn", link: "lyn.html", photo: "https://jkt48.com/profile/jesslyn_elly.jpg?v=20230116" , status: "Anggota JKT48"},
+{ name: "Kathrina",  link: "kathrina.html", photo: "https://jkt48.com/profile/kathrina_irene.jpg?v=20230116", status: "Anggota JKT48" },
+{ name: "Lulu",  link: "lulu.html", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Muthe", link: "muthe.html", photo: "https://jkt48.com/profile/mutiara_azzahra.jpg?v=20230116", status: "Anggota JKT48" },
+          { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116" , status: "Anggota JKT48"},
                                     ]
          },
          {
