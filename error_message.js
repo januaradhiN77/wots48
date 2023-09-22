@@ -23,4 +23,4 @@ function hideError() {
   }, 300);
 }
 
-setInterval(showError, 5000);
+setInterval(showError, 2000);
