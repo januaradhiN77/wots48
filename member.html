@@ -18,6 +18,14 @@
 
 <body>
 
+<div class="background" id="background"></div>
+
+<div class="error-container" id="errorContainer">
+  <div class="error-logo">!</div>
+  <p class="error-message">Oops</p>
+    <p class="error-message-detail">Terjadi kesalahan saat memproses data. coba beberapa saat lagi. 4000</p>
+  <button class="error-button" onclick="hideError()">OK</button>
+</div>
 
 <section class="member-content">
         <div class="member skeleton">
@@ -417,5 +425,6 @@ function storePreviousPage() {
   <script src="../css_js/data_member.js"></script>
   <script src="lazy_load.js"></script>
   <script src="../css_js/button_data.js"></script>
+    <script src="error_message.js"></script>
 </body>
 </html>

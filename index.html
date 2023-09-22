@@ -19,6 +19,23 @@
 <body>
 
 
+
+  
+
+
+
+
+<div class="background" id="background"></div>
+
+<div class="error-container" id="errorContainer">
+  <div class="error-logo">!</div>
+  <p class="error-message">Oops</p>
+    <p class="error-message-detail">Terjadi kesalahan saat memproses data. coba beberapa saat lagi. 4000</p>
+  <button class="error-button" onclick="hideError()">OK</button>
+</div>
+
+
+
 <section class="home-content">
     <div class="banner">
         <div class="slides">
@@ -91,7 +108,7 @@
 
 <section class="menu-content">
       <div class="home-item">
-        <div class="menu-bar">
+        <div class="menu-bar" style="display: none;">
                 <button class="buttonmem" onclick="goToWebsite(`music_page.html`)"><img class="widthimglagu" src="icon/lagu.png"></button>
                 <button class="buttonmem" onclick="goToWebsite(`index.html`)"><img src="icon/videocall.png"></button>
                 <button class="buttonmem" onclick="goToWebsite(`index.html`)"><img class="widthimgchant" src="icon/chant.png"></button>
@@ -103,7 +120,7 @@
    
       
       
-      <div class="birthdayhead">
+      <div class="birthdayhead"style="display: none;">
                   <span>NEXT BIRTHDAY</span>
                         <div class="birthday">
                                 <div class="birthday-box">
@@ -136,7 +153,7 @@
 </section>
 <section class="merchandise">
 
-        <div class="container-mc">
+        <div class="container-mc"style="display: none;">
                 
 
     <div class="card-mc">
@@ -385,5 +402,6 @@ function storePreviousPage() {
   <script src="../css_js/birthday_name.js"></script>
   <script src="../css_js/button_data.js"></script>
   <script src="lazy_load.js"></script>
+  <script src="error_message.js"></script>
 </body>
 </html>
