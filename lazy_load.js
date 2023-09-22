@@ -34,6 +34,3 @@ searchInput.addEventListener("input", function() {
   });
 });
 
-    
-    
-    
