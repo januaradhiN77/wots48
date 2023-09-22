@@ -31,7 +31,7 @@ function hideError() {
 
 setInterval(showError, 2000);
 
-
+function noneD(){
 const merchandise = document.getElementById('merch');
 const schedule = document.getElementById('sc');
 const mmbr = document.getElementById('anggota');
@@ -45,3 +45,7 @@ merchandise.style.display = 'none';
   berita.style.display = 'none';
   birthday.style.display = 'none';
   menuBar.style.display = 'none';
+  
+}
+
+noneD();
