@@ -3,12 +3,12 @@ function showError() {
   const background = document.getElementById('background');
   
   // Munculkan pesan kesalahan dengan animasi
-  errorContainer.style.display = 'block';
+  errorContainer.style.display = 'none';
   setTimeout(() => {
     errorContainer.style.transform = 'translate(-50%, -50%) scale(1)';
   }, 100);
   
-  background.style.display = 'block';
+  background.style.display = 'none';
 }
 
 function hideError() {
@@ -23,4 +23,4 @@ function hideError() {
   }, 300);
 }
 
-setInterval(showError, 2000);
+setInterval(showError, 90000000000000000000000000000000);
