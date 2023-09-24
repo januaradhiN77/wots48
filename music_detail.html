@@ -24,54 +24,8 @@
             color: black; /* Warna teks hitam saat tidak aktif */
         }
     </style>
-</head>
-<header>
-                <div class="header_dm">
-           <button class="buttonmem" onclick="goToWebsite(`music_page.html`)"><h1 style="color: white; margin-top: 10px; font-size: 2rem; font-weight: 700; margin-left: -140px;"><</h1></button>
-                <h1 style="margin-left: 10px; margin-top: 10px;"></h1>
-        </div>
-</header>
-<body>
-<section class="music-detail">
-                        <div class="frame-music">
-                                <iframe src="" id="iframeLagu" frameborder="0" allowfullscreen></iframe>
-                        </div>
-<div class="music-det">
-<div class="music-desk">
-
-        <div class="music-box">
-
-<div class="judul">
-        <h2 id="judulLagu"></h2>
-        <span id="typeMusic" ></span>
-           
-    <p>Total Pengunjung Hari Ini: <span id="totalHariIni">Memuat...</span></p>
-    <p>Total Pengunjung Kemarin: <span id="totalKemarin">Memuat...</span></p>
-
-</div>
-<div class="mode">
-        <button class="buttonmem" onclick="tampilkanLirik()"><span id="lirikButton">Lirik</span></button>
-        <div class="batas-mode"></div>
-      <button class="buttonmem" onclick="tampilkanChant()"><span id="chantButton">Chant</span></button>
-</div>
-
-<div class="bg">
-<div class="lirik-chant">
-
-        <p class="font-lyric" id="lirikLagu"></p>
-        <p class="font-lyric chant-content" id="chantLagu"></p>
-                                        <div class="batas"></div>
-</div>
-
-</div>
-<div class="batas"></div>
-</div>
-
-</div>
-
-</div>
-                </section>
-                <!-- Google tag (gtag.js) -->
+    
+    
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N610N5ZZ1Y"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -127,6 +81,56 @@
         <!-- Include the Google API Client Library -->
         <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
         </script>
+    
+</head>
+<header>
+                <div class="header_dm">
+           <button class="buttonmem" onclick="goToWebsite(`music_page.html`)"><h1 style="color: white; margin-top: 10px; font-size: 2rem; font-weight: 700; margin-left: -140px;"><</h1></button>
+                <h1 style="margin-left: 10px; margin-top: 10px;"></h1>
+        </div>
+</header>
+<body>
+<section class="music-detail">
+                        <div class="frame-music">
+                                <iframe src="" id="iframeLagu" frameborder="0" allowfullscreen></iframe>
+                        </div>
+<div class="music-det">
+<div class="music-desk">
+
+        <div class="music-box">
+
+<div class="judul">
+        <h2 id="judulLagu"></h2>
+        <span id="typeMusic" ></span>
+           
+    <p>Total Pengunjung Hari Ini: <span id="totalHariIni">Memuat...</span></p>
+    <p>Total Pengunjung Kemarin: <span id="totalKemarin">Memuat...</span></p>
+
+</div>
+<div class="mode">
+        <button class="buttonmem" onclick="tampilkanLirik()"><span id="lirikButton">Lirik</span></button>
+        <div class="batas-mode"></div>
+      <button class="buttonmem" onclick="tampilkanChant()"><span id="chantButton">Chant</span></button>
+</div>
+
+<div class="bg">
+<div class="lirik-chant">
+
+        <p class="font-lyric" id="lirikLagu"></p>
+        <p class="font-lyric chant-content" id="chantLagu"></p>
+                                        <div class="batas"></div>
+</div>
+
+</div>
+<div class="batas"></div>
+</div>
+
+</div>
+
+</div>
+                </section>
+                <!-- Google tag (gtag.js) -->
+
     <script src="../css_js/data_member.js"></script>
   <script src="../css_js/data_image.js"></script>
   <script src="../css_js/birthday_name.js"></script>
