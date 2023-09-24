@@ -69,7 +69,7 @@ else if (laguId === 'aitakatta') {
             document.getElementById('lirikLagu').style.display = 'none';
             document.getElementById('chantLagu').style.display = 'block';
             chantButton.classList.add('active'); // Tandai tombol "Chant" sebagai aktif
-            lirikButton.classList.remove('active'); // Hapus tanda tombol "Lirik" sebagai aktif
+lirikButton.classList.remove('active');
         }
 
         // Fungsi untuk menampilkan konten Lirik
@@ -77,5 +77,5 @@ else if (laguId === 'aitakatta') {
             document.getElementById('chantLagu').style.display = 'none';
             document.getElementById('lirikLagu').style.display = 'block';
             lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
-            chantButton.classList.remove('active'); // Hapus tanda tombol "Chant" sebagai aktif
+            chantButton.classList.remove('active');
         }

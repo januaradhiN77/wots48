@@ -13,14 +13,14 @@
         .chant-content {
             display: none;
         }
-        button.active {
-            background-color: red; /* Warna latar merah saat aktif */
-            color: white; /* Warna teks putih saat aktif */
+        span.active {
+             /* Warna latar merah saat aktif */
+            color: red; /* Warna teks putih saat aktif */
         }
 
         /* Tombol tidak aktif */
-        button:not(.active) {
-            background-color: lightgray; /* Warna latar abu-abu saat tidak aktif */
+        span:not(.active) {
+             /* Warna latar abu-abu saat tidak aktif */
             color: black; /* Warna teks hitam saat tidak aktif */
         }
     </style>
@@ -46,9 +46,9 @@
         <span id="typeMusic" ></span>
 </div>
 <div class="mode">
-        <button id="chantButton" onclick="tampilkanLirik()"><span></span>Lirik</button>
+        <button class="buttonmem" onclick="tampilkanLirik()"><span id="lirikButton">Lirik</span></button>
         <div class="batas-mode"></div>
-      <button id="lirikButton" onclick="tampilkanChant()"><span></span>Chant</button>
+      <button class="buttonmem" onclick="tampilkanChant()"><span id="chantButton">Chant</span></button>
 </div>
 
 <div class="bg">
