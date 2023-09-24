@@ -44,6 +44,10 @@
 <div class="judul">
         <h2 id="judulLagu"></h2>
         <span id="typeMusic" ></span>
+           
+    <p>Total Pengunjung Hari Ini: <span id="totalHariIni">Memuat...</span></p>
+    <p>Total Pengunjung Kemarin: <span id="totalKemarin">Memuat...</span></p>
+
 </div>
 <div class="mode">
         <button class="buttonmem" onclick="tampilkanLirik()"><span id="lirikButton">Lirik</span></button>
@@ -78,4 +82,53 @@
     <script src="data_music.js"></script>
 </body>
 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        // Ganti dengan informasi Anda
+        const CLIENT_ID = '215985029266-sojgd064q1ekrhgh1qamvl1oncv1i5l5.apps.googleusercontent.com';
+        const API_KEY = 'AIzaSyABv4DQAQ-KvIeNt93fbCVXTYnrCzxsca0';
+        const VIEW_ID = 'G-N610N5ZZ1Y';
+
+        // Function untuk memuat total pengunjung
+        function loadTotalPengunjung() {
+            gapi.client.init({
+                'apiKey': API_KEY,
+                'clientId': CLIENT_ID,
+                'scope': 'https://www.googleapis.com/auth/analytics.readonly',
+            }).then(function () {
+                return gapi.client.analytics.data.ga.get({
+                    'ids': 'ga:' + VIEW_ID,
+                    'start-date': 'yesterday',
+                    'end-date': 'today',
+                    'metrics': 'ga:users',
+                });
+            }).then(function (response) {
+                var totalKemarin = response.result.rows[0][0];
+                document.getElementById('totalKemarin').textContent = totalKemarin;
+
+                // Memuat total pengunjung hari ini
+                return gapi.client.analytics.data.ga.get({
+                    'ids': 'ga:' + VIEW_ID,
+                    'start-date': 'today',
+                    'end-date': 'today',
+                    'metrics': 'ga:users',
+                });
+            }).then(function (response) {
+                var totalHariIni = response.result.rows[0][0];
+                document.getElementById('totalHariIni').textContent = totalHariIni;
+            }).catch(function (reason) {
+                console.error('Error: ' + reason.result.error.message);
+            });
+        }
+
+        // Inisialisasi API
+        gapi.load('client:auth2', loadTotalPengunjung);
+    </script>
+
+    <!-- Include the Google API Client Library -->
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
 </html>
