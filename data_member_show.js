@@ -510,6 +510,36 @@ members: [
           { name: "Michie", link: "michie.html", photo: "https://jkt48.com/profile/michelle_alexandra.jpg?v=20230116", status: "Trainee JKT48"  },
                                     ]
          },
+                  {
+                    id: 20,
+                            title: "Aturan Anti Cinta",
+                            date: "19:00, Kamis 28 September 2023",
+                            icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                            image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
+                            informasiLink: "https://jkt48.com/theater/schedule/id/2591?lang=id",
+                            members: [
+                                    { name 
+                                    : "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116", status: "Anggota JKT48"  },
+                                    ]
+                  },
+                                    {
+                    id: 21,
+                            title: "Ingin Bertemu",
+                            date: "19:00, Jumat 29 September 2023",
+                            icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                            image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                            informasiLink: "https://jkt48.com/theater/schedule/id/2592?lang=id",
+                            members: []
+                  },
+                  {
+                          id: 22,
+                          title: "Cara Meminum Ramune",
+                          date: "19:00, Sabtu 30 September 2023",
+                          icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                          image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2593?lang=id",
+                          members: []
+                  },
     ];
 function redirectToExternalLink(link) {
       window.location.href = (link);
