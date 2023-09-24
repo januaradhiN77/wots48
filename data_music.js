@@ -3,7 +3,7 @@
         var laguId = urlParams.get('lagu');
         
         // Sesuaikan konten berdasarkan lagu yang dipilih
-        if (laguId === 'lagu1') {
+        if (laguId === 'kebunbinatangsaathujan') {
             document.getElementById('judulLagu').innerHTML = 'Ame No Doubutsuen - Kebun <br> Binatang Saat Hujan';
             document.getElementById('typeMusic').textContent = 'Mahagita - Kamikyokutachi'
             document.getElementById('iframeLagu').src = 'https://www.youtube.com/embed/yjTZPycMoKk?si=EoyfWoTCbPfVAxQe';
@@ -13,7 +13,7 @@
         
         
         
-        else if (laguId === 'lagu2') {
+        else if (laguId === 'seventeen') {
             document.getElementById('judulLagu').innerHTML = 'Seventeen';
             document.getElementById('typeMusic').textContent = 'BANZAI JKT48'
             document.getElementById('iframeLagu').src = 'https://www.youtube.com/embed/njeqh_BK36A?si=QlY0szqy9W02GCUB';
