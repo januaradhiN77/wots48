@@ -1221,9 +1221,9 @@ html{
   box-shadow: rgba(64, 60, 67, 0.3) 0px 2px 1px 0px, rgba(64, 60, 67, 0.15) 0px 0px 6px 0px;
   margin: auto;
   border-radius: 10px;
-  width: 150px;
+  width: 140px;
   text-align: center;
-  height: 220px;
+  height: 200px;
   margin-right: 10px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -1251,13 +1251,13 @@ html{
   text-align: left;
   margin-left: 10px;
   font-weight: 500;
-  margin-top:15px; 
-  font-size: large;
+  margin-top:10px; 
+  font-size: medium;
   color: #FF1E1EE3;
 }
 .container-music .card-music img{
-  width: 150px;
-  height: 135px;
+  width: 140px;
+  height: 130px;
   padding: 0px;
   border-radius: 10px 10px 0px 0px; 
 }
