@@ -14,8 +14,9 @@
         
         
         else if (laguId === 'lagu2') {
-            document.getElementById('judulLagu').textContent = 'Judul Lagu 2';
-            document.getElementById('iframeLagu').src = 'URL_VIDEO_LAGU_2';
-            document.getElementById('lirikLagu').innerHTML = 'Lirik lagu 2:<br>Baris 1<br>Baris 2<br>Baris 3';
+            document.getElementById('judulLagu').innerHTML = 'Seventeen';
+            document.getElementById('typeMusic').textContent = 'BANZAI JKT48'
+            document.getElementById('iframeLagu').src = 'https://www.youtube.com/embed/njeqh_BK36A?si=QlY0szqy9W02GCUB';
+            document.getElementById('lirikLagu').innerHTML = 'Di tempat kulahir dan dibesarkan<br>Di kota yang dekat laut ini<br>Setelah sekian lama aku pulang<br>Sudah ada shopping mall berdiri<br><br>Waktu itu selalu seperti tongkat sihir<br>Walaupun telah mengubah pemandangan<br>Suara ombak dan aroma gelombang<br>Masih sama seperti dulu<br>Seventeen<br><br>Sekarang juga kamu yang teristimewa<br>Ada di pojok kanan buku tahunan kita<br>Sungguh memang kamu yang teristimewa<br>Berapakali kubuka untuk memastikannya<br><br>Rumahmu yang dulu toko minuman<br>Sekarang menjadi minimarket<br>Saatku intip ke balik jendela<br>Kamu berdiri di kasir counter<br><br>Cita-citamu menjadi seorang hair stylist<br>Waktu itu kamu pernah bercerita<br>Walau tak seperti yang kamu bayangkan<br>Kamu terlihat bahagia<br>Aku jadi lega<br><br>Kudengar kalau kamu sudah menikah <br>Aku terlambat bilang suka kepadamu<br>Kudengar kamu pun sekarang punya anak<br>Tak sanggup memanggilmu<br>Farewell masa mudaku<br><br>Sekarang juga kamu yang teristimewa<br>Ada di pojok kanan buku tahunan kita<br>Sungguh memang kamu yang teristimewa<br>Berapakali kubuka untuk memastikannya<br>Sekarang juga kamu yang teristimewa<br>Berkilau dengan terang di dalam kenangan<br>Sungguh memang kamu yang teristimewa<br>Seperti ini selamanya<br>Cintaku yang pertama';
         }
         // Tambahkan kondisi lain untuk lagu lain jika diperlukan
