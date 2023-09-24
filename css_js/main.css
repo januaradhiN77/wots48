@@ -1306,8 +1306,7 @@ html{
 .frame-music{
   top: 0;
   position: fixed;
-  justify-content: center;
-  display: flex;
+  
   
 }
 .frame-music iframe{
