@@ -1224,10 +1224,10 @@ html{
   width: 140px;
   text-align: center;
   height: 200px;
-  margin-right: 10px;
+  margin-right: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .container-music::-webkit-scrollbar{
   height: 4px;
