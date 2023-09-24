@@ -8,7 +8,22 @@
   <title>Wots48 - ÷|π°u</title>
   <link rel="stylesheet" href="../css_js/main.css">
   
-  
+      <style>
+        /* Sembunyikan konten Chant saat halaman dimuat */
+        .chant-content {
+            display: none;
+        }
+        button.active {
+            background-color: red; /* Warna latar merah saat aktif */
+            color: white; /* Warna teks putih saat aktif */
+        }
+
+        /* Tombol tidak aktif */
+        button:not(.active) {
+            background-color: lightgray; /* Warna latar abu-abu saat tidak aktif */
+            color: black; /* Warna teks hitam saat tidak aktif */
+        }
+    </style>
 </head>
 <header>
                 <div class="header_dm">
@@ -31,15 +46,16 @@
         <span id="typeMusic" ></span>
 </div>
 <div class="mode">
-        <span class="red">Lirik</span>
+        <button id="chantButton" onclick="tampilkanLirik()"><span></span>Lirik</button>
         <div class="batas-mode"></div>
-        <span class="samar">Chant</span>
+      <button id="lirikButton" onclick="tampilkanChant()"><span></span>Chant</button>
 </div>
 
 <div class="bg">
 <div class="lirik-chant">
-        <p>Lirik</p><br><br>
-        <p class="font-lyric" id="lirikLagu">
+
+        <p class="font-lyric" id="lirikLagu"></p>
+        <p class="font-lyric chant-content" id="chantLagu"></p>
                                         <div class="batas"></div>
 </div>
 
