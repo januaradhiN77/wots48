@@ -1010,6 +1010,7 @@ html{
   justify-content: center;
   
 }
+
 .live-box img{
   width: 350px;
   border: 2.5px solid #000000;
@@ -1286,5 +1287,124 @@ html{
       margin-top: -27px;
       display: flex;
       align-items:  center;
+}
+.music-detail{
+        display: flex;
+        
+        position: fixed;
+        z-index: -4;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0px 0 0px;
+        height: 100vh;
+        background-color: #FFFFFF;
+        margin-top: 184px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px 15px 0 0;
+}
+.frame-music{
+  top: 0;
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  
+}
+.frame-music iframe{
+  width: 393px;
+  height: 225px;
+}
+.judul{
+  display: flex;
+  flex-direction: column;
+  
+  margin-right: auto;
+  margin-left: 15px;
+}
+.judul h2{
+  font-size: 25px;
+  margin-left: 0px;
+  color: #FF3636FA;
+  font-weight: 500;
+}
+.judul span{
+  margin-top: 10px;
+  font-size: large;
+}
+.music-det{
+
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  
+  margin-top: 0px;
+}
+.music-desk{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;;
+  gap: 0rem;
+  height: 900vh;
+  margin-top: -32vh;
+  overflow: auto;
+  
+}
+.music-box{
+
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.mode{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.batas-mode{
+   width: 1px;
+   height: 20px;
+   background: #00000059;
+}
+.mode span{
+    font-size: 20px;
+}
+.red{
+   color: #FF1B1B;
+}
+.samar{
+   color: #0000007D;
+}
+.lirik-chant{
+   margin-top: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #FFC9C9;
+   width: 360px;
+   border-radius: 10px;
+   text-align: left;
+   
+}
+.lirik-chant p{
+    font-size: 20px;
+    
+}
+.font-lyric{
+        font-weight: 600;
+}
+.bg{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 }

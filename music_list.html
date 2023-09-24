@@ -411,7 +411,7 @@
 
     <div class="card-music">
                         <div class="skeleton">
-        <button class="buttonmem"onclick="goToWebsite('index.html')">
+        <button class="buttonmem"onclick="goToWebsiteReal('music_detail.html')">
             <img src="https://upload.wikimedia.org/wikipedia/id/thumb/8/8f/JKT48_Mahagita_Cover.jpg/440px-JKT48_Mahagita_Cover.jpg"></div>
         </button>
         <span class="skeleton">Ame No Doubutsuen - Kebun Binatang Saat Hujan</span>
@@ -504,6 +504,12 @@
 function goToWebsite(websiteURL) {
 
 alert("Data tidak ditemukan. 4000");
-}</script>
+}
+
+function goToWebsiteReal(websiteURL) {
+
+window.location.href = websiteURL;
+}
+</script>
   <script src="lazy_load.js"></script>
 </html>
