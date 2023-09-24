@@ -411,7 +411,7 @@
 
     <div class="card-music">
                         <div class="skeleton">
-<button class="buttonmem" onclick="window.top.location.href='music_detail.html'">
+<button class="buttonmem" onclick="onctampilkanDetailLagu('lagu1')">
 
             <img src="https://upload.wikimedia.org/wikipedia/id/thumb/8/8f/JKT48_Mahagita_Cover.jpg/440px-JKT48_Mahagita_Cover.jpg"></div>
         </button>
@@ -502,6 +502,12 @@
 
 </body>
 <script>
+    <script>
+        function tampilkanDetailLagu(laguId) {
+            // Mengarahkan ke halaman detail lagu sesuai lagu yang dipilih
+            window.top.location.href = 'music_detail.html?lagu=' + laguId;
+        }
+    </script>
 function goToWebsite(websiteURL) {
 
 alert("Data tidak ditemukan. 4000");

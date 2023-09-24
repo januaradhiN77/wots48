@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Lagu</title>
+</head>
+<body>
+    <h1>Daftar Lagu</h1>
+    <!-- Daftar lagu di sini -->
+    <ul>
+        <li><button onclick="tampilkanDetailLagu('lagu1')">Lagu 1</button></li>
+        <li><button onclick="tampilkanDetailLagu('lagu2')">Lagu 2</button></li>
+        <!-- Tambahkan lagu lain jika diperlukan -->
+    </ul>
+
+    <script>
+        function tampilkanDetailLagu(laguId) {
+            // Mengarahkan ke halaman detail lagu sesuai lagu yang dipilih
+            window.location.href = 'music_detail.html?lagu=' + laguId;
+        }
+    </script>
+</body>
+</html>
