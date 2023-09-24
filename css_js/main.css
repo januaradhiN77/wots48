@@ -536,7 +536,7 @@ html{
   margin-top: -2px;
   margin-left: 30px;
 }
-.serach{
+.search{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -1260,5 +1260,23 @@ html{
   height: 130px;
   padding: 0px;
   border-radius: 10px 10px 0px 0px; 
+}
+.search-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.search-bg input{
+        width: 340px;
+
+   height: 40px;
+
+   text-align: center;
+   font-size: 15px;
+   box-shadow: rgba(64, 60, 67, 0.3) 0px 1px 2px 0px, rgba(64, 60, 67, 0.15) 0px 0px 2px 0px;
+   margin-top: 20px;
+   border-radius: 10px;
+   border: 0px solid;
 }
 }
