@@ -3,9 +3,16 @@
 <head>
     <title>Detail Lagu</title>
     <style>
-        /* Sembunyikan konten Chant saat halaman dimuat */
-        .chant-content {
-            display: none;
+        /* Tombol aktif */
+        button.active {
+            background-color: red; /* Warna latar merah saat aktif */
+            color: white; /* Warna teks putih saat aktif */
+        }
+
+        /* Tombol tidak aktif */
+        button:not(.active) {
+            background-color: lightgray; /* Warna latar abu-abu saat tidak aktif */
+            color: black; /* Warna teks hitam saat tidak aktif */
         }
     </style>
 </head>
@@ -22,38 +29,98 @@
     <p id="chantLagu" class="chant-content"></p>
 
     <!-- Tombol untuk beralih antara Chant dan Lirik -->
-    <button onclick="tampilkanChant()">Chant</button>
-    <button onclick="tampilkanLirik()">Lirik</button>
+    <button id="chantButton" onclick="tampilkanChant()">Chant</button>
+    <button id="lirikButton" onclick="tampilkanLirik()">Lirik</button>
 
-    <!-- Skrip JavaScript untuk mengisi konten -->
+    <!-- Tombol untuk menambahkan atau menghapus lagu dari favorit -->
+    <button id="favoritButton" onclick="toggleFavorit()">Tambahkan ke Favorit</button>
+
+    <!-- Tombol untuk ke halaman favorit -->
+    <button id="favoritPageButton" onclick="keHalamanFavorit()">Halaman Favorit</button>
+
     <script>
         // Mengambil parameter "lagu" dari URL
         var urlParams = new URLSearchParams(window.location.search);
         var laguId = urlParams.get('lagu');
-        
+
+        // Objek JSON untuk data favorit
+        var favorit = JSON.parse(sessionStorage.getItem('favorit')) || [];
+
+        // Inisialisasi tombol yang aktif saat halaman dimuat
+        var chantButton = document.getElementById('chantButton');
+        var lirikButton = document.getElementById('lirikButton');
+        var favoritButton = document.getElementById('favoritButton');
+        var favoritPageButton = document.getElementById('favoritPageButton');
+
+        // Cek apakah lagu sudah ada dalam daftar favorit
+        var isFavorit = favorit.includes(laguId);
+
+        // Sesuaikan tampilan tombol Favorit
+        updateFavoritButton();
+
         // Sesuaikan konten berdasarkan lagu yang dipilih saat halaman dimuat
         if (laguId === 'lagu1') {
             document.getElementById('judulLagu').textContent = 'Judul Lagu 1';
             document.getElementById('iframeLagu').src = 'URL_VIDEO_LAGU_1';
             document.getElementById('lirikLagu').innerHTML = 'Lirik lagu 1:<br>Baris 1<br>Baris 2<br>Baris 3';
             document.getElementById('chantLagu').innerHTML = 'Chant lagu 1:<br>Chant 1<br>Chant 2<br>Chant 3';
+            lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
         } else if (laguId === 'lagu2') {
             document.getElementById('judulLagu').textContent = 'Judul Lagu 2';
             document.getElementById('iframeLagu').src = 'URL_VIDEO_LAGU_2';
             document.getElementById('lirikLagu').innerHTML = 'Lirik lagu 2:<br>Baris 1<br>Baris 2<br>Baris 3';
             document.getElementById('chantLagu').innerHTML = 'Chant lagu 2:<br>Chant 1<br>Chant 2<br>Chant 3';
+            chantButton.classList.add('active'); // Tandai tombol "Chant" sebagai aktif
         }
 
         // Fungsi untuk menampilkan konten Chant
         function tampilkanChant() {
             document.getElementById('lirikLagu').style.display = 'none';
             document.getElementById('chantLagu').style.display = 'block';
+            chantButton.classList.add('active'); // Tandai tombol "Chant" sebagai aktif
+            lirikButton.classList.remove('active'); // Hapus tanda tombol "Lirik" sebagai aktif
         }
 
         // Fungsi untuk menampilkan konten Lirik
         function tampilkanLirik() {
             document.getElementById('chantLagu').style.display = 'none';
             document.getElementById('lirikLagu').style.display = 'block';
+            lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
+            chantButton.classList.remove('active'); // Hapus tanda tombol "Chant" sebagai aktif
+        }
+
+        // Fungsi untuk menambah atau menghapus lagu dari daftar favorit
+        function toggleFavorit() {
+            if (isFavorit) {
+                // Hapus lagu dari daftar favorit
+                favorit = favorit.filter(item => item !== laguId);
+            } else {
+                // Tambahkan lagu ke daftar favorit
+                favorit.push(laguId);
+            }
+
+            // Perbarui tampilan tombol Favorit
+            isFavorit = !isFavorit;
+            updateFavoritButton();
+
+            // Simpan daftar favorit dalam session storage
+            sessionStorage.setItem('favorit', JSON.stringify(favorit));
+        }
+
+        // Fungsi untuk memperbarui tampilan tombol Favorit
+        function updateFavoritButton() {
+            if (isFavorit) {
+                favoritButton.textContent = 'Hapus dari Favorit';
+                favoritButton.classList.add('active');
+            } else {
+                favoritButton.textContent = 'Tambahkan ke Favorit';
+                favoritButton.classList.remove('active');
+            }
+        }
+
+        // Fungsi untuk mengarahkan pengguna ke halaman favorit
+        function keHalamanFavorit() {
+            window.location.href = 'test_favorit.html';
         }
     </script>
 </body>

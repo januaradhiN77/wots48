@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Favorit</title>
+</head>
+<body>
+    <h1>Daftar Lagu Favorit</h1>
+    <ul id="daftarLaguFavorit">
+        <!-- Daftar lagu favorit akan ditampilkan di sini -->
+    </ul>
+
+    <script>
+        // Mendapatkan daftar lagu favorit dari penyimpanan lokal
+        var favorit = JSON.parse(localStorage.getItem('favorit')) || [];
+
+        // Mendapatkan elemen ul daftar lagu favorit
+        var daftarLaguFavorit = document.getElementById('daftarLaguFavorit');
+
+        // Menampilkan tautan ke "detail_lagu.html" berdasarkan ID lagu favorit
+        favorit.forEach(function (laguId) {
+            var tautan = document.createElement('a');
+            tautan.href = 'tester_detail_lagu.html?lagu=' + laguId;
+            tautan.textContent = 'Lagu Favorit ' + laguId;
+
+            var itemDaftar = document.createElement('li');
+            itemDaftar.appendChild(tautan);
+
+            daftarLaguFavorit.appendChild(itemDaftar);
+        });
+    </script>
+</body>
+</html>
