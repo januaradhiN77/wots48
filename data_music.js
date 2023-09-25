@@ -78,6 +78,16 @@ else if (laguId === 'flyinghigh') {
 
 
 
+else if (laguId === 'rapsodi') {
+            document.getElementById('judulLagu').innerHTML = 'Rapsodi';
+            document.getElementById('typeMusic').textContent = 'Rapsodi'
+            document.getElementById('iframeLagu').src = 'https://www.youtube.com/embed/9GiWftsHdBs';
+            document.getElementById('chantLagu').innerHTML = 'Tidak ada chant';
+            document.getElementById('lirikLagu').innerHTML = 'Lirik<br><br><br>Ku lihat ada yang bersinar di kedua bola<br>matamu<br>Kau buat malam gelap ini jadi penuh<br>cahaya<br>Terang kilau pesona<br><br>Kasih andai anganku bersuara, dia kan<br>bernyanyi<br>Rapsodi indah yang kan bermuara di<br>fajar hati<br>Kelingking kita berjanji, jari manis jadi<br>saksi<br>Bahagia hingga sang bumi enggan<br>berputar lagi<br><br>Kau buat aku sempurna, saat kau<br>berkata iya<br>Kau izinkan ku berlaga mengarungi dunia<br>Di sisimu selamanya<br><br>Kasih andai anganku bersuara, dia kan<br>bernyanyi<br>Rapsodi indah yang kan bermuara di<br>fajar hati<br>Kelingking kita berjanji, jari manis jadi<br>saksi<br>Bahagia hingga sang bumi enggan<br>berputar lagi<br><br>Saling bersandar<br>Hingga bumi tak berputar<br>Cinta kita takkan pudar<br>Selamanya<br><br>Kasih andai anganku bersuara di fajar <br>hati<br>Kelingking kita berjanji, jari manis jadi<br>saksi<br>Bahagia tuk selamanya<br><br>Kasih andai anganku bersuara, dia kan<br>bernyanyi<br>Rapsodi indah yang kan bermuara di<br>fajar hati<br>Kelingking kita berjanji, jari manis jadi<br>saksi<br>Bahagia hingga sang bumi<br><br>Kasih andai anganku bersuara, dia kan<br>bernyanyi<br>Rapsodi indah yang kan bermuara di<br>fajar hati<br>Kelingking kita berjanji, jari manis jadi<br>saksi<br>Bahagia hingga sang bumi enggan<br>berputar lagi';
+            lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
+            }
+
+
 
 // Fungsi untuk menampilkan konten Chant
         function tampilkanChant() {
