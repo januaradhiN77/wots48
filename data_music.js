@@ -67,7 +67,14 @@ else if (laguId === 'aitakatta') {
 document.getElementById('lirikLagu').innerHTML = 'Lirik<br><br><br>One two three four<br>I want you (i want you)<br>I need you (i need you)<br>I love you (i love you)<br>Di dalam benakku<br>Keras berbunyi irama myujiku<br>Heavy rotation<br><br>Seperti popcorn yang meletup letup<br>Kata kata suka menari nari<br>Wajahmu suaramu selalu kuingat<br>Membuatku menjadi tergila gila<br>Oh senangnya miliki perasaan ini<br>Ku sangat merasa beruntung<br><br>I want you (i want you)<br>I need you (i need you)<br>I love you (i love you)<br>Bertemu denganmu<br>Semakin dekat jarak di antara kita<br>Maximun high tention<br><br>I want you (i want you)<br>I need you (i need you)<br>I love you (i love you)<br>Di lubuk hatiku<br>Rasa sayang yang terus menerus<br>meluap<br>Heavy rotation<br><br>Dalam kehidupan setiap manusia berapa<br>kali bisa rasakan cinta<br>Jika ada satu cinta tak terlupa ku akan<br>merasa sangat bahagia<br>Mungkin seperti perasaan sekuntum<br>bunga saat dia akan mekar<br><br>I feel you (i feel you)<br>I touch you (i touch you)<br>I hold you (i hold you)<br>Di dalam mimpiku<br>Angan anganku menjadi semakin besar<br>Oh its my imagination<br><br>I feel you (i feel you)<br>I touch you (i touch you)<br>I hold you (i hold you)<br>Perasaan ini<br>Ku sangat ingin mengutarakan padamu<br>Heavy rotation<br><br>Yang selalu kudengarkan<br>Favorite song<br>Seperti lagu yang ku suka (yea yea yea)<br>Ku ulang terus tanpa henti<br>Twenty four hours a day<br><br>Oh baby the only request its you<br><br>I want you (i want you)<br>I need you (i need you)<br>I love you (i love you)<br>Bertemu dengan mu<br>Semakin dekat jarak diantara kita<br>Maximun high tention<br><br>I want you (i want you)<br>I need you (i need you)<br>I love you (i love you)<br>Di lubuk hatiku<br>Rasa sayang yang terus menerus<br>meluap<br>Heavy rotation<br><br>Heavy rotation';
             lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
             }
-
+else if (laguId === 'flyinghigh') {
+            document.getElementById('judulLagu').innerHTML = 'Flying High';
+            document.getElementById('typeMusic').textContent = 'Flying High'
+            document.getElementById('iframeLagu').src = '';
+            document.getElementById('chantLagu').innerHTML = 'Tidak ada chant';
+            document.getElementById('lirikLagu').innerHTML = 'Lirik<br><br><br>I`m sitting pretty I`m enjoying the view<br>We`re flying high<br>High<br><br>Feels like this gon` call for celebration<br>Made it from the bottom to the top<br>Ahh whooo<br>Finally free got my emancipation<br>I can hardly believe I made it this far<br><br>I feel the wave I feel the love<br>I feel the energy<br>I`m on my way to better days<br>There ain`t a thing that can stop me now<br><br>I’m sitting pretty I’m enjoying the view<br>We`re flying high<br>High<br><br>No stop no quitting going straight to the moon<br>We’re flying high<br>High<br><br>Woke up hella grateful<br>(Said I woke up hella grateful)<br>Never let up stayed faithful (Yeah)Never let up had faith (Tell me now I)I’m sitting pretty I’m enjoying the viewWe’re flying high<br>High<br><br>Birds eye view of this whole town<br>I could see so clear there ain`t no<br>clouds<br>Zoom zoom on my way like a rocket<br>Nothing in my way that can stop it now<br>Me and my friends are tight<br>Everything feels alright And a little bit of extra, the shoes rock at<br>fiesta<br>Lovin` this life so blessed<br><br>I feel the wave I feel the love<br>I feel the energy<br>I`m on my way to better days<br>There ain`t a thing that can stop me now<br><br>I’m sitting pretty I’m enjoying the view<br>We’re flying high<br>High<br><br>No stop no quitting going straight to the moon<br>We’re flying high<br>High<br><br>Woke up hella grateful<br>(Said I woke up hella grateful)<br>Never let up stayed faithful (Yeah)<br>Never let up had faith (Tell me now I)<br>I’m sitting pretty I’m enjoying the view<br>We’re flying high<br>High<br><br>To the moon to the stars<br>No there ain’t no telling<br>Where we’ll go<br>Or how far<br>We ain’t got no limits<br>Or no ceilings<br>It’s only the beginning<br>Going till the wheels fall off<br>Gonna give it all that we got<br>Oooooooo<br><br>I’m sitting pretty I’m enjoying the view<br>We’re flying high<br>High<br><br>No stop no quitting going straight to the moon<br>We’re flying high<br>High<br><br>Woke up hella grateful<br>(Said I woke up hella grateful)<br>Never let up stayed faithful (Yeah)<br>Never let up had faith (Tell me now I)<br>I’m sitting pretty I’m enjoying the view<br>We’re flying high<br>High';
+            lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
+            }
 
 
 
@@ -87,3 +94,9 @@ lirikButton.classList.remove('active');
             lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
             chantButton.classList.remove('active');
         }
+        
+        
+        
+        
+        
+        
