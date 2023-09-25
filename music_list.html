@@ -9,6 +9,12 @@
 </head>
 
 <body>
+        <div class="error-container" id="errorContainer">
+  <div class="error-logo">!</div>
+  <p class="error-message">Oops</p>
+    <p class="error-message-detail">Terjadi kesalahan saat memproses data. coba beberapa saat lagi. 4000</p>
+  <button class="error-button" onclick="hideError()">OK</button>
+</div>
         <section class="search-list">
                 <div class="search-bg">
           <input type="text" id="searchInput" placeholder="🔍   Cari lagu, album, atau setlist JKT48"></div></section><br><br>
@@ -505,7 +511,6 @@
 
         
 function goToWebsite(websiteURL) {
-
 alert("Data tidak ditemukan. 4000");
 }
 
