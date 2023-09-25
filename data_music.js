@@ -96,6 +96,20 @@ else if (laguId === 'pesawatkertas365') {
             lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
             }
 
+
+
+
+else if (laguId === 'fortunecookie') {
+            document.getElementById('judulLagu').innerHTML = 'Fortune Cookie in Love (Fortune.Cookie Yang Mencinta)';
+            document.getElementById('typeMusic').textContent = 'Fortune Cookie in Love: Fortune.Cookie Yang Mencinta'
+            document.getElementById('iframeLagu').src = 'https://www.youtube.com/embed/i9n73cTc5hE';
+            document.getElementById('chantLagu').innerHTML = 'Tidak ada chant';
+            document.getElementById('lirikLagu').innerHTML = 'Lirik<br><br><br>Walaupun diri ini menyukaimu<br>Kamu seperti tak tertarik kepadaku<br>Siap patah hati kesekian kalinya<br>Yeah yeah yeah<br><br>Ketika kulihat di sekelilingku<br>Ternyata banyak sekali gadis yang cantik<br>Bunga yang tak menarik tidak akan<br>disadari<br>Yeah yeah yeah<br><br>Saat ku melamun terdengar music<br>Mengalun di kafetaria<br>Tanpa sadar kuikuti iramanya<br>Dan ujung jari pun mulai bergerak<br>Perasaanku ini tak dapat berhenti<br>Come on come on come on baby<br>Tolong ramalkanlah<br><br>Yang mencinta fortune cookies<br>Masa depan tidak akan seburuk itu<br>Hey hey hey<br>Mengembangkan senyuman kan<br>membawa keberuntungan<br><br>Fortune cookie berbentuk hati<br>Nasib lebih baiklah dari hari ini<br>Hey hey hey hey hey hey<br><br>Janganlah menyerah dalam menjalani<br>hidup<br>Akan datang keajaiban yang tak terduga<br>Ku punya firasat tuk bisa saling<br>mencinta denganmu<br><br>Ingin ungkapkan perasaan padamu<br>(perasaan padamu)<br>Tetapi aku tak percaya diri<br>Karena reaksimu terbayang di benakku<br>Yeah yeah yeah<br><br>Meski cowok bilang gadis ideal<br>Yang punya kepribadian baik<br>Penampilan itu membutuhkan<br>Selalu hanya gadis cantik saja<br>Yang kan dipilih menjadi nomor Satu<br>Please please please oh baby<br>Lihatlah diriku<br><br>Yang mencinta fortune cookies<br>Cangkang itu ayo cepat pecahkan saja<br>Hey hey hey<br>Apa yang kan terjadi siapapun tak ada<br>yang tahu<br><br>Air mata fortune cookies<br>Aku mohon jangan menjadi hal yang<br>buruk<br>Hey hey hey hey hey hey<br><br>Dunia ini kan dipenuhi oleh cinta<br>Esok hari akan berhembus angin yang<br>baru<br>Yang membuat kita terlupa akan hal<br>yang menyedihkan<br>Come on come on come on baby<br>Tolong ramalkanlah<br><br>Yang mencinta fortune cookies<br>Masa depan tidak akan seburuk itu<br>Hey hey hey<br>Mengembangkan senyuman kan<br>membawa keberuntungan<br><br>Fortune cookie berbentuk hati<br>Nasib lebih baiklah dari hari ini<br>Hey hey hey hey hey hey<br><br>Janganlah menyerah dalam menjalani<br>hidup<br>Akan datang keajaiban yang tak terduga<br>Ku punya firasat tuk bisa saling<br>mencinta denganmu (wuh)';
+            lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
+            }
+            
+            
+            
 // Fungsi untuk menampilkan konten Chant
         function tampilkanChant() {
             document.getElementById('lirikLagu').style.display = 'none';
