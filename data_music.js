@@ -87,7 +87,14 @@ else if (laguId === 'rapsodi') {
             lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
             }
 
-
+else if (laguId === 'pesawatkertas365') {
+            document.getElementById('judulLagu').innerHTML = 'Pesawat Kertas 365 Hari - 365 Nichi No Kamihikouki';
+            document.getElementById('typeMusic').textContent = 'Pesawat Kertas 365 Hari - 365 Nichi No Kamihikouki'
+            document.getElementById('iframeLagu').src = 'https://www.youtube.com/embed/GYZpknfi5YQ';
+            document.getElementById('chantLagu').innerHTML = 'Tidak ada chant';
+            document.getElementById('lirikLagu').innerHTML = 'Lirik<br><br><br>Ku tatap langit di pagi hari<br>Ku awali hari dengan doa<br>Semoga satu hari ini bisa<br>Dipenuhi oleh senyum<br>Walaupun terkadang hujan turun<br>Dan air mata juga mengalir<br>Di hari yang tak berjalan dengan mulus<br>Besokpun tetap semangat<br><br>Di dalam mimpiku selalu<br>Terlihat ada diriku sendiri<br>Yang dengan bebasnya melakukan<br>semua<br>Hal yang ingin aku lakukan<br><br>Hidup bagaikan pesawat kertas<br>Terbang dan pergi membawa impian<br>Sekuat tenaga dengan hembusan angin<br>Terus melaju terbang<br>Jangan bandingkan jarak terbangnya<br>Tapi bagaimana dan apa yang dilalui<br>Karena itulah satu hal yg penting<br>S`lalu sesuai kata hati<br>Sanbyaku rokujugo nichi<br><br>Di saat terlihat bintang-bintang<br>Atau malam yang gelap gulita<br>Pada saat semangatmu hilang carilah<br>Orang lain dan bicara<br>Manusia tidaklah pernah<br>Ditinggal sendirian saja<br>Terkadang kita tak menyadari<br>Hal baik disekitar kita<br><br>Hidup bagaikan pesawat kertas<br>Terbang dan membawa cinta kita semua<br>Sayap yang terbentang dengan percaya<br>diri<br>Dilihat semua orang<br>Walau tak tahu cara melipatnya<br>Suatu saat pasti akan berhasil lalu<br>terbang<br>Kekuatan harapan yang<br>menerbangkannya<br>Ya mari nikmatilah<br>Sanbyaku rokujugo nichi<br><br>Hidup bagaikan pesawat kertas<br>Terbang dan pergi membawa impian<br>Sekuat tenaga dengan hembusan angin<br>Terus melaju terbang<br>Jangan bandingkan jarak terbangnya<br>Tapi bagaimana dan apa yang dilalui<br>Karena itulah satu hal yg penting<br>S`lalu sesuai kata hati<br>Sanbyaku rokujugo nichi<br><br>Ayo terbanglah (coba terbanglah)<br>Ayo terbanglah (coba terbanglah)<br>Ayo terbanglah (coba terbanglah)';
+            lirikButton.classList.add('active'); // Tandai tombol "Lirik" sebagai aktif
+            }
 
 // Fungsi untuk menampilkan konten Chant
         function tampilkanChant() {
