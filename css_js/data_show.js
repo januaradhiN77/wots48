@@ -27,7 +27,7 @@ updateTextForElements("169 Show", 'h2.sh20-text');
 updateTextForElements("706 Show", 'h2.sh21-text');
 updateTextForElements("684 Show", 'h2.sh22-text');
 updateTextForElements("252 Show", 'h2.sh23-text');
-updateTextForElements("44 Show", 'h2.sh24-text');
+updateTextForElements("43 Show", 'h2.sh24-text');
 updateTextForElements("73 Show", 'h2.sh25-text');
 updateTextForElements("85 Show", 'h2.sh26-text');
 updateTextForElements("85 Show", 'h2.sh27-text');
