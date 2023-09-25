@@ -1389,6 +1389,7 @@ html{
    background: #FFE0E0;
    width: 360px;
    border-radius: 10px;
+   
    text-align: left;
    
    
@@ -1396,9 +1397,11 @@ html{
 .lirik-chant p{
     font-size: 20px;
     margin-left: -20px;
+    
 }
 .font-lyric{
         font-weight: 600;
+        user-select: auto;
 }
 .bg{
     
