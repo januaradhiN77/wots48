@@ -32,7 +32,7 @@ updateTextForElements("73 Show", 'h2.sh25-text');
 updateTextForElements("85 Show", 'h2.sh26-text');
 updateTextForElements("85 Show", 'h2.sh27-text');
 updateTextForElements("105 Show", 'h2.sh28-text');
-updateTextForElements("49 Show", 'h2.sh29-text');
+updateTextForElements("50 Show", 'h2.sh29-text');
 updateTextForElements("74 Show", 'h2.sh30-text');
 updateTextForElements("20 Show", 'h2.sh31-text');
 updateTextForElements("10 Show", 'h2.sh32-text');
