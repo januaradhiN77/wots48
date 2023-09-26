@@ -538,7 +538,7 @@ members: [
           { name: "Adel", link: "adel.html", photo: "https://jkt48.com/profile/reva_fidela.jpg?v=20230116" , status: "Anggota JKT48"},
           ,
 
-          { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116", status: "Trainee JKT48"},
+          { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116", status: "Anggota JKT48"},
                                     ]
                   },
                                     {
