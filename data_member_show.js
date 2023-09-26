@@ -534,10 +534,10 @@ members: [
           { name: "Indira", link: "indira.html", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Lulu", link: "lulu.html", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116" , status: "Anggota JKT48"},
-          { name: "Muthe", link: "muthe.html", photo: "https://jkt48.com/profile/mutiara_azzahra.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Raisha", link: "raisha.html", photo: "https://jkt48.com/profile/raisha_syifa.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Adel", link: "adel.html", photo: "https://jkt48.com/profile/reva_fidela.jpg?v=20230116" , status: "Anggota JKT48"},
           ,
-          { name: "Gracia", link: "gracia.html", photo: "https://jkt48.com/profile/shania_gracia.jpg?v=20230116", status: "Anggota JKT48" },
+
           { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116", status: "Trainee JKT48"},
                                     ]
                   },
