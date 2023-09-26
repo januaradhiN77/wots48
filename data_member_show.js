@@ -574,6 +574,7 @@ members: [
                           informasiLink: "https://jkt48.com/theater/schedule/id/2593?lang=id",
                           members: [
           { name: "Ashel", link: "ashel.html", photo: "https://jkt48.com/profile/adzana_shaliha.jpg?v=20230116", status: "Anggota JKT48"},
+          { name: "Christy", link: "christy.html", photo: "https://jkt48.com/profile/angelina_christy.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Lia", link: "lia.html", photo: "https://jkt48.com/profile/aurellia.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Callie", link: "callie.html", photo: "https://jkt48.com/profile/callista_alifia.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Oniel", link: "oniel.html", photo: "https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116", status: "Anggota JKT48" },
@@ -589,7 +590,7 @@ members: [
           { name: "Adel", link: "adel.html", photo: "https://jkt48.com/profile/reva_fidela.jpg?v=20230116" , status: "Anggota JKT48"},
           ,
           { name: "Gracia", link: "gracia.html", photo: "https://jkt48.com/profile/shania_gracia.jpg?v=20230116", status: "Anggota JKT48" },
-          { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116", status: "Trainee JKT48"},
+          { name: "Chika", link: "chika.html", photo: "https://jkt48.com/profile/yessica_tamara.jpg?v=20230116", status: "Anggota JKT48"},
                                   
                                   
                                   ]
