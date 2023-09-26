@@ -532,6 +532,8 @@ members: [
 
                               { name: "Eli",  link: "eli.html", photo: "https://jkt48.com/profile/helisma_putri.jpg?v=20230116", status: "Anggota JKT48" },
           { name: "Indira", link: "indira.html", photo: "https://jkt48.com/profile/indira_seruni.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Jessi", link: "jessi.html", photo: "https://jkt48.com/profile/jessica_chandra.jpg?v=20230116" , status: "Anggota JKT48"},
+          { name: "Lulu", link: "lulu.html", photo: "https://jkt48.com/profile/lulu_salsabila.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Muthe", link: "muthe.html", photo: "https://jkt48.com/profile/mutiara_azzahra.jpg?v=20230116" , status: "Anggota JKT48"},
           { name: "Adel", link: "adel.html", photo: "https://jkt48.com/profile/reva_fidela.jpg?v=20230116" , status: "Anggota JKT48"},
           ,
