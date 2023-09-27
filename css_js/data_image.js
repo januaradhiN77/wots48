@@ -61,7 +61,7 @@ addImageToElement('idnapp', 'https://pbs.twimg.com/media/F63dP9OaUAA51Qw?format=
 
 
 //SHOWROOM IMAGE MEMBER :)
-
+addImageToElement('elisr', 'https://static.showroom-live.com/image/room/cover/6ac7ec5ce772cca881de55354f99c07c0987240e057c4f2fecb11024eeaae6a6_s.jpeg?v=1675092663')
 addImageToElement('christysr', 'https://static.showroom-live.com/image/room/cover/8b704fbdc371c9dd64fa6b2a15839ae3e912e9a5f76173d40502969a31a936f4_s.jpeg?v=1675092800')
 addImageToElement('muthesr', 'https://static.showroom-live.com/image/room/cover/d6cd1a52b06d7bed1bd0bda75b917eb18667e060c175952babc50733bf3a7e40_s.jpeg?v=1675092551')
 addImageToElement('adelsr', 'https://static.showroom-live.com/image/room/cover/f459e9d740545298dcc1ac26e558b3c7a8a679a24369e1f86256b21c6faf4547_s.jpeg?v=1675091671')
