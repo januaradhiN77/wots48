@@ -1,7 +1,7 @@
 var jadwalElements = document.querySelectorAll(".jadwal_date"); 
 
 
-var targetDate = new Date("2023-09-01T00:00:00"); 
+var targetDate = new Date("2023-10-01T00:00:00"); 
 
 
 function updateDisplay() {
