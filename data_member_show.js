@@ -610,7 +610,7 @@ members: [
                   {
                           id: 24,
                           title: "Ingin Bertemu",
-                          date: "19:00, Kamis 6 Oktober 2023",
+                          date: "19:00, Jumat 6 Oktober 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                           image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
                           informasiLink: "https://jkt48.com/theater/schedule/id/2596?lang=id",
