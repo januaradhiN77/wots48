@@ -595,6 +595,42 @@ members: [
                                   
                                   ]
                   },
+                  {
+                          id: 23,
+                          title: "Tunas di Balik Seragam",
+                          date: "19:00, Kamis 5 Oktober 2023",
+                          icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                          image: "https://jkt48webfans.netlify.app/poster.tunasdibalikseragam.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2595?lang=id",
+                          members: [
+                                  
+                                  
+                                  ]
+                  },
+                  {
+                          id: 24,
+                          title: "Ingin Bertemu",
+                          date: "19:00, Kamis 6 Oktober 2023",
+                          icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                          image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2596?lang=id",
+                          members: [
+                                  
+                                  
+                                  ]
+                  },
+                  {
+                          id: 25,
+                          title: "Aturan Anti Cinta",
+                          date: "16:00, Minggu 8 Oktober 2023",
+                          icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
+                          image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2598?lang=id",
+                          members: [
+          { name: "Shani", link: "shani.html", photo: "https://jkt48.com/profile/shani_indira_natio.jpg?v=20230116", status: "Anggota JKT48" },
+
+                                  ]
+                  },
     ];
 function redirectToExternalLink(link) {
       window.location.href = (link);
