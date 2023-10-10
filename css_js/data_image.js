@@ -56,7 +56,7 @@ addImageToElement('michieimg', 'https://jkt48.com/profile/michelle_alexandra.jpg
 //IDN Thumbnail
 
 
-addImageToElement('idnapp', 'https://pbs.twimg.com/media/F7bhjbBacAALw8Z?format=jpg&name=medium');
+addImageToElement('idnapp', 'https://pbs.twimg.com/media/F7_jVBjacAA_hVw?format=jpg&name=medium');
 
 
 
