@@ -597,11 +597,11 @@ members: [
                   },
                   {
                           id: 23,
-                          title: "Tunas di Balik Seragam",
-                          date: "19:00, Kamis 5 Oktober 2023",
+                          title: "Cara Meminum Ramune",
+                          date: "19:00, Kamis 2 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.tunasdibalikseragam.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2595?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2607?lang=id",
                           members: [
                                   
                                   
@@ -609,11 +609,11 @@ members: [
                   },
                   {
                           id: 24,
-                          title: "Ingin Bertemu",
-                          date: "19:00, Jumat 6 Oktober 2023",
+                          title: "Tunas di Balik Seragam",
+                          date: "19:00, Jumat 3 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2596?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.tunasdibalikseragam.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2608?lang=id",
                           members: [
                                   
                                   
@@ -621,23 +621,23 @@ members: [
                   },
                   {
                           id: 25,
-                          title: "Aturan Anti Cinta",
-                          date: "16:00, Minggu 8 Oktober 2023",
+                          title: "Ingin Bertemu",
+                          date: "19:00, Sabtu 4 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2598?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2609?lang=id",
                           members: [
-          { name: "Shani", link: "shani.html", photo: "https://jkt48.com/profile/shani_indira_natio.jpg?v=20230116", status: "Anggota JKT48" },
+
 
                                   ]
                   },
                   {
                           id: 26,
-                          title: "Cara Meminum Ramune",
-                          date: "19:00, Jumat 13 Oktober 2023",
+                          title: "Ingin Bertemu",
+                          date: "16:00, Minggu 5 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2599?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2610?lang=id",
                           members: [
                                   
                                   
@@ -645,11 +645,11 @@ members: [
                   },
                   {
                           id: 27,
-                          title: "Aturan Anti Cinta",
-                          date: "19:00, Sabtu 14 Oktober 2023",
+                          title: "Ingin Bertemu",
+                          date: "19:00, Rabu 8 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2600?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2611?lang=id",
                           members: [
                                   
                                   
@@ -658,10 +658,10 @@ members: [
                   {
                           id: 28,
                           title: "Ingin Bertemu",
-                          date: "16:00, Minggu 15 Oktober 2023",
+                          date: "19:00, Jumat 10 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                           image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2601?lang=id",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2612?lang=id",
                           members: [
 
 
@@ -669,11 +669,11 @@ members: [
                   },
                   {
                           id: 29,
-                          title: "Cara Meminum Ramune",
-                          date: "19:00, Kamis 19 Oktober 2023",
+                          title: "Aturan Anti Cinta",
+                          date: "19:00, Minggu 12 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2602?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.aturananticinta.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2613?lang=id",
                           members: [
                                   
                                   
