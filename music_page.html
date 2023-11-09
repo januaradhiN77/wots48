@@ -17,12 +17,21 @@
         </div>
 </header>
 <body>
-<section class="pemberitahuan" style="width: 100%; height: 0px;">
+        <div class="background" id="background"></div>
+
+<div class="error-container" id="errorContainer">
+  <div class="error-logo">!</div>
+  <p class="error-message">Oops</p>
+    <p class="error-message-detail">Terjadi kesalahan saat memproses data. coba beberapa saat lagi. 4000</p>
+  <button class="error-button" onclick="hideError()">OK</button>
+</div>
+
+<section class="pemberitahuan"style="display:none;" style="width: 100%; height: 0px;">
                         <div class="pemberitahuan" style="display:flex; justify-content: center; align-items: center;">
                                 <img style="width: 380px; margin-top: 10px;" src="icon/pemberitahuan.png">
                         </div>
 </section>
-<section class="music-content">
+<section class="music-content"style="display:none;">
 
 
 <div class="music-frame" style="margin-top: -240px; display: flex; justify-content: center; align-items: center;">
@@ -37,7 +46,7 @@
   <script src="../css_js/birthday_name.js"></script>
   <script src="../css_js/button_data.js"></script>
   <script src="lazy_load.js"></script>
-    
+   <script src="error_message.js"></script>
 </body>
 
 </html>
