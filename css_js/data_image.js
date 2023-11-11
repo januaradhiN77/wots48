@@ -82,7 +82,7 @@ addImageToElement('siscasr', 'https://static.showroom-live.com/image/room/cover/
 
 addImageToElement('liasr', 'https://static.showroom-live.com/image/room/cover/104f71ef35980e70baeb6a7ed59f18c7374f9a33bf7d1720a0581b8a0b2edb1e_s.jpeg?v=1685542598');
 
-addImageToElement('zeesr', 'https://static.showroom-live.com/image/room/cover/a9aa6279cf53c4b3f2d79e35a098e94934506edc56b60896dcc44a45f940611e_l.jpeg?v=1675092985');
+addImageToElement('zeesr', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlh7rirBOIBswX65Cba8hAoTIKvToPx5WRYw&usqp=CAU');
 addImageToElement('gitasr', 'https://static.showroom-live.com/image/room/cover/388fa55ee4ee2a438a34d1b0a71de03f472b76b5560203930f103850edb577c8_s.jpeg?v=1675092700');
 addImageToElement('fenisr', 'https://static.showroom-live.com/image/room/cover/bc8b10acffc5adee44b5d8b7dade3bc9435607fe3a766ae772ec633ac08b649b_s.jpeg?v=1675092939');
 addImageToElement('fionysr', 'https://static.showroom-live.com/image/room/cover/a2345e2127cf122ef7adb9d988a41e080dbd7f0db28bfc113335b7a341b68c7e_s.jpeg?v=1675092072');
