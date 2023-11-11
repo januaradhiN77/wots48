@@ -53,7 +53,7 @@ else if (showroomId === 'feni') {
 
 else if (showroomId === 'fiony') {
     document.getElementById('namaMember').innerHTML = 'Fiony JKT48';document.getElementById('memberSt').innerHTML = 'Anggota JKT48';
-   document.getElementById('status').innerHTML = '• TBD'; document.getElementById('iframeSr').src = 'https://static.showroom-live.com/image/room/cover/a2345e2127cf122ef7adb9d988a41e080dbd7f0db28bfc113335b7a341b68c7e_s.jpeg?v=1675092072';
+   document.getElementById('status').innerHTML = '• LIVE'; document.getElementById('iframeSr').src = 'https://hls-origin280.showroom-cdn.com/liveedge/ngrp:6ac25ccab171518fba3f13e2abc5fdfee40e977b7420131a7a9107058bba97b2_all/playlist.m3u8';
     document.getElementById('detailSr').innerHTML = 'Name: Fiony Alveria / フィオニー・アルフェリア<br>Birthday: 4-February-2002<br>Birthplace: Jakarta<br>Blood type: O<br>Zodiac signs: Aquarius<br>Hobby: Dance, Drawing, Listening Music';
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Fiony';
