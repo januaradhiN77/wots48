@@ -682,11 +682,11 @@ members: [
                   
                   {
                           id: 30,
-                          title: "Ingin Bertemu",
-                          date: "19:00, Sabtu 21 Oktober 2023",
+                          title: "Cara Meminum Ramune",
+                          date: "19:00, Kamis 16 November 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
-                          image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2603?lang=id",
+                          image: "https://jkt48webfans.netlify.app/poster.carameminumramune.jpg",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2614?lang=id",
                           members: [
                                   
                                   
@@ -695,10 +695,10 @@ members: [
                   {
                           id: 31,
                           title: "Ingin Bertemu",
-                          date: "16:00, Minggu 22 Oktober 2023",
+                          date: "19:00, Jumat 17 Oktober 2023",
                           icon: "https://jkt48webfans.netlify.app/icon.cat17_jkt48.png",
                           image: "https://jkt48webfans.netlify.app/poster.jkt48.jpg",
-                          informasiLink: "https://jkt48.com/theater/schedule/id/2604?lang=id",
+                          informasiLink: "https://jkt48.com/theater/schedule/id/2615?lang=id",
                           members: [
                                   
                                   
