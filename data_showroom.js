@@ -4,13 +4,14 @@ var showroomId = urlParams.get('showroom');
 if (showroomId === 'ashel') {
     document.getElementById('namaMember').innerHTML = 'Ashel JKT48';
     document.getElementById('status').innerHTML = '• TBD';
+    document.getElementById('memberSt').innerHTML = 'Anggota JKT48';
     document.getElementById('iframeSr').src = 'https://static.showroom-live.com/image/room/cover/1f4eca57063fe3f6be0bf5a66adefd5e3afa7395324c0a95e572a533c8c1f89a_s.jpeg?v=1675092239';
     document.getElementById('detailSr').innerHTML = 'Name: Adzana Shaliha アザナ・サリハ<br>Birthday: 8-January-2005<br>Birthplace: Jakarta<br>Blood type: B<br>Zodiac signs: Capricorn<br>Hobby: Dance, Gymnastic, Gaming';
 
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Ashel';
 } else if (showroomId === 'christy') {
-    document.getElementById('namaMember').innerHTML = 'Christy JKT48';
+    document.getElementById('namaMember').innerHTML = 'Christy JKT48';document.getElementById('memberSt').innerHTML = 'Anggota JKT48';
     document.getElementById('status').innerHTML = '• TBD';
     document.getElementById('iframeSr').src = 'https://static.showroom-live.com/image/room/cover/8b704fbdc371c9dd64fa6b2a15839ae3e912e9a5f76173d40502969a31a936f4_s.jpeg?v=1675092800';
     document.getElementById('detailSr').innerHTML = 'Name: Angelina Christy<br>Birthday: 5 December 2005<br>Birthplace: Jakarta<br>Blood type: O<br>Zodiac signs: Sagitarius<br>Hobby: Dancing';
