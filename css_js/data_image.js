@@ -82,10 +82,15 @@ addImageToElement('siscasr', 'https://static.showroom-live.com/image/room/cover/
 
 addImageToElement('liasr', 'https://static.showroom-live.com/image/room/cover/104f71ef35980e70baeb6a7ed59f18c7374f9a33bf7d1720a0581b8a0b2edb1e_s.jpeg?v=1685542598');
 
-
+addImageToElement('zeesr', 'https://static.showroom-live.com/image/room/cover/a9aa6279cf53c4b3f2d79e35a098e94934506edc56b60896dcc44a45f940611e_l.jpeg?v=1675092985');
 addImageToElement('gitasr', 'https://static.showroom-live.com/image/room/cover/388fa55ee4ee2a438a34d1b0a71de03f472b76b5560203930f103850edb577c8_s.jpeg?v=1675092700');
-
+addImageToElement('fenisr', 'https://static.showroom-live.com/image/room/cover/bc8b10acffc5adee44b5d8b7dade3bc9435607fe3a766ae772ec633ac08b649b_s.jpeg?v=1675092939');
 addImageToElement('fionysr', 'https://static.showroom-live.com/image/room/cover/a2345e2127cf122ef7adb9d988a41e080dbd7f0db28bfc113335b7a341b68c7e_s.jpeg?v=1675092072');
+addImageToElement('freyasr', 'https://static.showroom-live.com/image/room/cover/cd2b6cf94d461b64c9215d808c58d7cbf029cd8d624e5c59e9b3a10a34ecfe33_l.jpeg?v=1675091998');
+addImageToElement('shanisr', 'https://static.showroom-live.com/image/room/cover/15391680ed61e9c6c53454d5f56f63236e29a261ee5054e42daee3f04b630567_s.jpeg?v=1675092514');
+addImageToElement('chikasr', 'https://static.showroom-live.com/image/room/cover/2f6272c11bf11e91708e57bff7a9abb1faa9eebe18d1a211f05d7d6b71d0ef04_s.jpeg?v=1675092285');
+addImageToElement('calliesr', 'https://static.showroom-live.com/image/room/cover/8b558b8317e4ec4aa4d6afdb9c7c62675cdd352a49bf2a42d2900ec35aa32a67_s.jpeg?v=1685542636');
+addImageToElement('indirasr', 'https://static.showroom-live.com/image/room/cover/80e7ab4bb7445c959ca2bff7c44dac4cc7353bddc0d3c70b6928c00f67ccfc53_s.jpeg?v=1685542774');
 
 addImageToElement('indahsr', 'https://static.showroom-live.com/image/room/cover/58f3d939319e28956fd771e0f587a347ea0fec6b5c3415067e122f4794fd3514_s.jpeg?v=1675091960');
 addImageToElement('cynthiasr', 'https://static.showroom-live.com/image/room/cover/e3e88b5c96d4af6c2bd0e951809d808214a6bb8837903c1d8a83fa87ad1ea080_s.jpeg?v=1683727584');
