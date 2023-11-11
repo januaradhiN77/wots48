@@ -53,10 +53,16 @@
 
 </section>
 <script>
-function storePreviousPage() {
-  // Simpan URL halaman asal ke session storage
-  sessionStorage.setItem('previousPage', window.location.href);
-}
+        function goBack() {
+                const previousPage = sessionStorage.getItem('previousPage');
+
+
+                if (previousPage) {
+                        window.location.href = previousPage;
+                } else {
+                        window.history.back();
+                }
+        }
 </script>
   <script src="../css_js/button_data.js"></script>
   <script src="../css_js/main.js"></script>
