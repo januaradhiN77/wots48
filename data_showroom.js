@@ -182,7 +182,7 @@ else if (showroomId === 'amanda') {
 
 else if (showroomId === 'lia') {
     document.getElementById('namaMember').innerHTML = 'Lia JKT48';document.getElementById('memberSt').innerHTML = 'Anggota JKT48';
-   document.getElementById('status').innerHTML = '• TBD'; document.getElementById('iframeSr').src = 'https://www.youtube.com/embed/eq0s1atl_K0?si=I_UxnFZ5iWMO9AbX';
+   document.getElementById('status').innerHTML = '• 20:36'; document.getElementById('iframeSr').src = 'https://hls-origin248.showroom-cdn.com/liveedge/ngrp:255d088b088674e55a33cf74e866b81a4037c93b3225240dade566c67cb45533_all/playlist.m3u8';
     document.getElementById('detailSr').innerHTML = 'Name: Aurellia<br>Birthday: 29 Oktober 2002<br>Birthplace: Jakarta<br>Blood type: O<br>Zodiac signs: Scorpio<br>Hobby: Dance, Listening to Music';
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Lia';
