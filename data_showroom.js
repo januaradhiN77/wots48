@@ -10,7 +10,11 @@ if (showroomId === 'ashel') {
 
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Ashel';
-} else if (showroomId === 'christy') {
+    
+} 
+
+
+else if (showroomId === 'christy') {
     document.getElementById('namaMember').innerHTML = 'Christy JKT48';document.getElementById('memberSt').innerHTML = 'Anggota JKT48';
     document.getElementById('status').innerHTML = '• TBD';
     document.getElementById('iframeSr').src = 'https://www.youtube.com/embed/eq0s1atl_K0?si=I_UxnFZ5iWMO9AbX';
