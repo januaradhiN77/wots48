@@ -313,7 +313,7 @@ else if (showroomId === 'gracie') {
 
 else if (showroomId === 'greesel') {
     document.getElementById('namaMember').innerHTML = 'Greesel JKT48';document.getElementById('memberSt').innerHTML = 'Trainee JKT48';
-   document.getElementById('status').innerHTML = '• TBD'; document.getElementById('iframeSr').src = 'https://www.youtube.com/embed/eq0s1atl_K0?si=I_UxnFZ5iWMO9AbX';
+   document.getElementById('status').innerHTML = '• 20:12'; document.getElementById('iframeSr').src = 'https://hls-origin249.showroom-cdn.com/liveedge/ngrp:3a20e219ba059a901b5a6f012862a57c674451ca54fa663c9e90281462820bee_all/playlist.m3u8';
     document.getElementById('detailSr').innerHTML = 'Name: Greesella Adhalia<br>Birthday: 10 Januari 2006<br>Birthplace: Bogor<br>Blood type: O<br>Zodiac signs: Capricorn<br>Hobby: Acting, Watching movies, singing, reading manga';
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Greesel';
@@ -321,7 +321,7 @@ else if (showroomId === 'greesel') {
 
 else if (showroomId === 'jeane') {
     document.getElementById('namaMember').innerHTML = 'Jeane JKT48';document.getElementById('memberSt').innerHTML = 'Trainee JKT48';
-   document.getElementById('status').innerHTML = '• 20:03'; document.getElementById('iframeSr').src = 'https://hls-origin214.showroom-cdn.com/liveedge/1a7eb608d6543f19b8869cf6ab02afa715310eb68153eb96f2ed0fbf83be6ac2/chunklist.m3u8';
+   document.getElementById('status').innerHTML = '• 20:03'; document.getElementById('iframeSr').src = 'https://www.youtube.com/embed/eq0s1atl_K0?si=I_UxnFZ5iWMO9AbX';
     document.getElementById('detailSr').innerHTML = 'Name: Jeane Victoria<br>Birthday: 5 June 2006<br>Birthplace: Jakarta<br>Blood type: O<br>Zodiac signs: Gemini<br>Hobby: Food hunting, Swimming, Cooking, Art, Playing video games, singing';
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Jeane';
