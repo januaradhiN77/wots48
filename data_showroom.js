@@ -153,7 +153,7 @@ else if (showroomId === 'adel') {
 
 else if (showroomId === 'shani') {
     document.getElementById('namaMember').innerHTML = 'Shani JKT48';document.getElementById('memberSt').innerHTML = 'Anggota JKT48';
-   document.getElementById('status').innerHTML = '• 20:25'; document.getElementById('iframeSr').src = 'https://hls-origin246.showroom-cdn.com/liveedge/ngrp:ded0af5cc2e40f09aa972e1711282c5c92330a6a1a1116b42b0b54120194361e_all/playlist.m3u8';
+   document.getElementById('status').innerHTML = '• TBD'; document.getElementById('iframeSr').src = 'https://hls-origin246.showroom-cdn.com/liveedge/ngrp:ded0af5cc2e40f09aa972e1711282c5c92330a6a1a1116b42b0b54120194361e_all/playlist.m3u8';
     document.getElementById('detailSr').innerHTML = 'Name: Shani Indira Natio<br>Birthday: 5 October 1998<br>Birthplace: Kebumen<br>Blood type: B<br>Zodiac signs: Libra<br>Hobby: Swimming, Listening to music, Strolling';
     // Menyesuaikan href tombol
     document.getElementById('showroomLink').href = 'https://www.showroom-live.com/JKT48_Shani';
