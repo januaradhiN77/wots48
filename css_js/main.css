@@ -210,7 +210,7 @@ html{
   justify-content: center;
   align-items: center;
   background-color: #FF9B9B;
-  height: 300px auto;
+  height: auto ;
   margin-top: 0px;
   width: 100%;
 }
