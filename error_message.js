@@ -4,13 +4,13 @@ function showError() {
   
   
   // Munculkan pesan kesalahan dengan animasi
-  errorContainer.style.display = 'block';
+  errorContainer.style.display = 'none';
   
   setTimeout(() => {
     errorContainer.style.transform = 'translate(-50%, -50%) scale(1)';
   }, 100);
   
-  background.style.display = 'block';
+  background.style.display = 'none';
   
 
 }
