@@ -224,7 +224,7 @@ html{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 1rem;
 }
 .birthday-box{
   display: flex;
