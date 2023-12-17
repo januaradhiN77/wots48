@@ -189,7 +189,7 @@ html{
 .menu-bar{
   display: flex;
   gap: 5rem;
-  margin-top: -20px;
+  margin-top: -10px;
   
 }
 .menu-bar img{
